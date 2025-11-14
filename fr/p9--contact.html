@@ -1,0 +1,784 @@
+<!-- ✅ HERO – Contact / Un échange peut tout changer (Version FR finale épurée, texte court + long) -->
+<section class="sbt-block sbt-hero" style="position: relative; overflow: hidden;">
+
+  <!-- Image de fond -->
+  <div class="sbt-bg" style="
+    background-image: url('https://i.imgur.com/CaM1Zig.png');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    inset: 0;
+    filter: brightness(0.6);
+  "></div>
+
+  <!-- Overlay bleu -->
+  <div style="
+    position: absolute;
+    inset: 0;
+    background: rgba(6, 19, 56, 0.55);
+  "></div>
+
+  <!-- Contenu -->
+  <div class="sbt-container" style="
+    position: relative;
+    z-index: 2;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 80px 40px;
+    color: #FFFFFF;
+  ">
+    <div class="sbt-text" style="
+      max-width: 740px;
+      backdrop-filter: blur(6px);
+      background: rgba(6, 19, 56, 0.35);
+      border-radius: 16px;
+      padding: 48px;
+    ">
+
+      <!-- Titre -->
+      <h2 class="sbt-title" style="
+        font-family: 'Playfair Display', serif;
+        font-size: 40px;
+        font-weight: 600;
+        margin-bottom: 20px;
+        color: #FFFFFF;
+      ">
+        Un échange peut tout changer
+      </h2>
+
+      <!-- Texte court -->
+      <p class="sbt-short" style="
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 1.7;
+        color: #D9D9D9;
+        margin-bottom: 24px;
+      ">
+        Chez <strong>SBT Executive</strong>, nous croyons à la force des rencontres bien ciblées.  
+        Qu’il s’agisse de structurer une <strong>mission stratégique</strong>  
+        ou d’envisager une <strong>nouvelle étape professionnelle</strong>,  
+        chaque échange compte.
+      </p>
+
+      <!-- Texte long (masqué par défaut) -->
+      <div id="longTextContactFR" style="display:none; margin-bottom:24px;">
+        <p style="font-size:17px; line-height:1.8; color:#D9D9D9;">
+          Cette page vous permet de nous contacter directement selon votre profil.  
+          Les <strong>organisations</strong> peuvent partager leurs besoins en  
+          <strong>recrutement</strong>, <strong>transformation</strong> ou <strong>coaching</strong> ;  
+          les <strong>talents</strong> expérimentés peuvent déposer leur profil en toute confidentialité.  
+          Chaque contact est traité avec <strong>attention</strong>, <strong>discrétion</strong>  
+          et <strong>professionnalisme</strong>.
+        </p>
+      </div>
+
+      <!-- Bouton pour afficher le texte long -->
+      <button id="toggleTextBtnContactFR" style="
+        background: transparent;
+        color: #45D1FF;
+        border: 1px solid #45D1FF;
+        padding: 10px 26px;
+        border-radius: 40px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        margin-top: 8px;
+      " onmouseover="this.style.backgroundColor='#45D1FF'; this.style.color='#031034';"
+         onmouseout="this.style.backgroundColor='transparent'; this.style.color='#45D1FF';">
+        En savoir plus
+      </button>
+
+      <!-- Signature -->
+      <p style="
+        font-size:18px;
+        color:#45D1FF;
+        font-weight:600;
+        margin-top:28px;
+      ">
+        Parce qu’une rencontre peut créer un impact durable.
+      </p>
+    </div>
+  </div>
+
+  <!-- Script -->
+  <script>
+    document.getElementById('toggleTextBtnContactFR').addEventListener('click', function() {
+      const longText = document.getElementById('longTextContactFR');
+      const isVisible = longText.style.display === 'block';
+      longText.style.display = isVisible ? 'none' : 'block';
+      this.textContent = isVisible ? 'En savoir plus' : 'Réduire';
+    });
+  </script>
+</section>
+<!-- ✅ HERO – Contact / A conversation can change everything (EN Premium Version, short + long text) -->
+<section class="sbt-block sbt-hero" style="position: relative; overflow: hidden;">
+
+  <!-- Background image -->
+  <div class="sbt-bg" style="
+    background-image: url('https://i.imgur.com/CaM1Zig.png');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    inset: 0;
+    filter: brightness(0.6);
+  "></div>
+
+  <!-- Blue overlay -->
+  <div style="
+    position: absolute;
+    inset: 0;
+    background: rgba(6, 19, 56, 0.55);
+  "></div>
+
+  <!-- Content -->
+  <div class="sbt-container" style="
+    position: relative;
+    z-index: 2;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 80px 40px;
+    color: #FFFFFF;
+  ">
+    <div class="sbt-text" style="
+      max-width: 740px;
+      backdrop-filter: blur(6px);
+      background: rgba(6, 19, 56, 0.35);
+      border-radius: 16px;
+      padding: 48px;
+    ">
+
+      <!-- Title -->
+      <h2 class="sbt-title" style="
+        font-family: 'Playfair Display', serif;
+        font-size: 40px;
+        font-weight: 600;
+        margin-bottom: 20px;
+        color: #FFFFFF;
+      ">
+        A conversation can change everything
+      </h2>
+
+      <!-- Short text -->
+      <p class="sbt-short" style="
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 1.7;
+        color: #D9D9D9;
+        margin-bottom: 24px;
+      ">
+        At <strong>SBT Executive</strong>, we believe in the power of meaningful encounters.  
+        Whether you are shaping a <strong>strategic mission</strong> or considering a  
+        <strong>new professional chapter</strong>, every conversation matters.
+      </p>
+
+      <!-- Long text (hidden by default) -->
+      <div id="longTextContactEN" style="display:none; margin-bottom:24px;">
+        <p style="font-size:17px; line-height:1.8; color:#D9D9D9;">
+          This page allows you to reach us directly according to your profile.  
+          <strong>Organisations</strong> can share their needs in  
+          <strong>executive search</strong>, <strong>transformation</strong> or <strong>coaching</strong>;  
+          experienced <strong>talents</strong> can confidentially submit their profiles.  
+          Every exchange is handled with <strong>care</strong>, <strong>discretion</strong> and <strong>professionalism</strong>.
+        </p>
+      </div>
+
+      <!-- Button to show long text -->
+      <button id="toggleTextBtnContactEN" style="
+        background: transparent;
+        color: #45D1FF;
+        border: 1px solid #45D1FF;
+        padding: 10px 26px;
+        border-radius: 40px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        margin-top: 8px;
+      " onmouseover="this.style.backgroundColor='#45D1FF'; this.style.color='#031034';"
+         onmouseout="this.style.backgroundColor='transparent'; this.style.color='#45D1FF';">
+        Learn more
+      </button>
+
+      <!-- Signature -->
+      <p style="
+        font-size:18px;
+        color:#45D1FF;
+        font-weight:600;
+        margin-top:28px;
+      ">
+        Because one conversation can create lasting impact.
+      </p>
+    </div>
+  </div>
+
+  <!-- Script -->
+  <script>
+    document.getElementById('toggleTextBtnContactEN').addEventListener('click', function() {
+      const longText = document.getElementById('longTextContactEN');
+      const isVisible = longText.style.display === 'block';
+      longText.style.display = isVisible ? 'none' : 'block';
+      this.textContent = isVisible ? 'Learn more' : 'Hide';
+    });
+  </script>
+</section>
+<!-- ✅ BLOC B – Contact Entreprise (Version Egon Zehnder clean & premium) -->
+<section class="sbt-block sbt-split" style="background:#061338; color:#FFFFFF; padding:120px 0;">
+  <div class="sbt-container" style="
+    max-width:1200px; margin:0 auto; padding:0 40px;
+    display:flex; gap:80px; align-items:center; flex-wrap:wrap;
+  ">
+
+    <!-- Texte à gauche -->
+    <div class="sbt-text" style="flex:1 1 560px; min-width:320px;">
+      <h2 class="sbt-title" style="
+        font-family:'Playfair Display',serif;
+        font-size:38px; color:#FFFFFF; margin:0 0 24px;
+        line-height:1.3; letter-spacing:-0.2px;
+      ">
+        Vous avez un besoin ou un challenge&nbsp;?<br>
+        <span style="color:#45D1FF;">Parlons-en ensemble.</span>
+      </h2>
+
+      <p style="
+        font-size:19px; font-weight:300; color:#E8EBF3;
+        line-height:1.7; margin:0 0 20px; max-width:90%;
+      ">
+        Vous souhaitez <strong>recruter, transformer ou développer vos équipes</strong>&nbsp;?
+      </p>
+
+      <p style="
+        font-size:17px; line-height:1.8; color:#D9D9D9;
+        margin:0 0 36px; max-width:90%;
+      ">
+        Partagez vos enjeux de <strong>recrutement stratégique</strong>, de 
+        <strong>leadership</strong> ou de <strong>transformation</strong>.  
+        Chaque demande est traitée avec <strong>confidentialité</strong>, 
+        <strong>écoute</strong> et <strong>professionnalisme</strong>.
+      </p>
+
+      <button id="openFormBtn" style="
+        background:#45D1FF; color:#031034; font-weight:600;
+        font-size:16px; border:none; border-radius:40px;
+        padding:14px 36px; cursor:pointer;
+        transition:all 0.3s ease;
+      " onmouseover="this.style.background='#FFFFFF';" onmouseout="this.style.background='#45D1FF';">
+        📩 Partager mon besoin
+      </button>
+    </div>
+
+    <!-- Image à droite -->
+    <div class="sbt-image" style="flex:1 1 520px; min-width:320px; text-align:center;">
+      <img src="https://i.imgur.com/CaM1Zig.png" alt="Contact SBT Executive" style="
+        width:100%; height:auto; max-height:460px; object-fit:cover;
+        border-radius:20px; box-shadow:0 8px 24px rgba(0,0,0,0.3);
+      ">
+    </div>
+
+  </div>
+
+  <!-- Formulaire masqué -->
+  <div id="formulaireEntreprise" style="
+    display:none; margin:80px auto 0; max-width:800px;
+    background:#FFFFFF; color:#061338;
+    border-radius:20px; padding:60px 70px;
+    box-shadow:0 8px 25px rgba(6,19,56,0.15);
+  ">
+    <h3 style="
+      font-family:'Playfair Display',serif; font-size:28px;
+      margin-bottom:20px; color:#031034;
+    ">
+      Décrivez votre besoin
+    </h3>
+
+    <form id="client-form">
+      <label>Nom *</label>
+      <input type="text" name="nom" required style="width:100%; padding:12px; margin-bottom:14px; border:1px solid #D9D9D9; border-radius:8px;">
+
+      <label>Prénom *</label>
+      <input type="text" name="prenom" required style="width:100%; padding:12px; margin-bottom:14px; border:1px solid #D9D9D9; border-radius:8px;">
+
+      <label>Fonction *</label>
+      <input type="text" name="fonction" placeholder="Ex : Directeur Général, DRH..." required style="width:100%; padding:12px; margin-bottom:14px; border:1px solid #D9D9D9; border-radius:8px;">
+
+      <label>Entreprise *</label>
+      <input type="text" name="entreprise" required style="width:100%; padding:12px; margin-bottom:14px; border:1px solid #D9D9D9; border-radius:8px;">
+
+      <label>Votre besoin concerne :</label>
+      <div style="margin-top:10px; margin-bottom:14px;">
+        <label><input type="checkbox" name="besoin" value="Recruter"> Recruter</label><br>
+        <label><input type="checkbox" name="besoin" value="Développer"> Développer</label><br>
+        <label><input type="checkbox" name="besoin" value="Préparer"> Préparer</label><br>
+        <label><input type="checkbox" name="besoin" value="Engager"> Engager</label>
+      </div>
+
+      <label>Expliquez brièvement votre besoin</label>
+      <textarea name="message" rows="4" placeholder="Décrivez votre contexte, vos enjeux ou votre mission..." style="width:100%; padding:12px; border:1px solid #D9D9D9; border-radius:8px;"></textarea>
+
+      <div style="margin-top:18px; font-size:14px;">
+        <label><input type="checkbox" required> 
+          Je consens au traitement de mes données conformément à la 
+          <a href="/politique-de-confidentialite" target="_blank" style="color:#45D1FF;">politique de confidentialité</a>.
+        </label>
+      </div>
+
+      <button type="submit" style="
+        margin-top:30px;
+        background:#45D1FF; border:none; color:#031034;
+        font-weight:700; font-family:'Montserrat',sans-serif;
+        padding:14px 36px; border-radius:40px;
+        cursor:pointer; transition:all 0.3s ease;
+      " onmouseover="this.style.background='#031034'; this.style.color='#FFFFFF';"
+         onmouseout="this.style.background='#45D1FF'; this.style.color='#031034';">
+        Envoyer ma demande
+      </button>
+
+      <div id="success-msg-client" style="
+        background:#E6FAF8; border-left:4px solid #45D1FF;
+        padding:14px 18px; border-radius:6px;
+        margin-top:24px; display:none; color:#061338;
+      ">
+        Merci pour votre message. Notre équipe vous contactera sous 48h.
+      </div>
+    </form>
+  </div>
+
+  <script>
+    document.getElementById("openFormBtn").addEventListener("click", function(){
+      const form = document.getElementById("formulaireEntreprise");
+      form.style.display = form.style.display === "block" ? "none" : "block";
+      this.textContent = form.style.display === "block" ? "Fermer le formulaire" : "📩 Partager mon besoin";
+    });
+
+    document.getElementById("client-form").addEventListener("submit", function(e){
+      e.preventDefault();
+      document.getElementById("success-msg-client").style.display = "block";
+      this.reset();
+    });
+  </script>
+</section>
+<!-- ✅ BLOCK B – Client Contact (Clean & Premium Egon Zehnder Style) -->
+<section class="sbt-block sbt-split" style="background:#061338; color:#FFFFFF; padding:120px 0;">
+  <div class="sbt-container" style="
+    max-width:1200px; margin:0 auto; padding:0 40px;
+    display:flex; gap:80px; align-items:center; flex-wrap:wrap;
+  ">
+
+    <!-- Text Column -->
+    <div class="sbt-text" style="flex:1 1 560px; min-width:320px;">
+      <h2 class="sbt-title" style="
+        font-family:'Playfair Display',serif;
+        font-size:38px; color:#FFFFFF; margin:0 0 24px;
+        line-height:1.3; letter-spacing:-0.2px;
+      ">
+        Do you have a need or a challenge?<br>
+        <span style="color:#45D1FF;">Let’s talk about it.</span>
+      </h2>
+
+      <p style="
+        font-size:19px; font-weight:300; color:#E8EBF3;
+        line-height:1.7; margin:0 0 20px; max-width:90%;
+      ">
+        Are you looking to <strong>recruit, transform, or develop your teams</strong>?
+      </p>
+
+      <p style="
+        font-size:17px; line-height:1.8; color:#D9D9D9;
+        margin:0 0 36px; max-width:90%;
+      ">
+        Share your <strong>strategic recruitment</strong>, <strong>leadership</strong> or 
+        <strong>organizational transformation</strong> needs with us.  
+        Every request is handled with <strong>confidentiality</strong>, 
+        <strong>attention</strong>, and <strong>professionalism</strong>.
+      </p>
+
+      <button id="openFormBtn" style="
+        background:#45D1FF; color:#031034; font-weight:600;
+        font-size:16px; border:none; border-radius:40px;
+        padding:14px 36px; cursor:pointer;
+        transition:all 0.3s ease;
+      " onmouseover="this.style.background='#FFFFFF';" onmouseout="this.style.background='#45D1FF';">
+        📩 Share your request
+      </button>
+    </div>
+
+    <!-- Image Column -->
+    <div class="sbt-image" style="flex:1 1 520px; min-width:320px; text-align:center;">
+      <img src="https://i.imgur.com/CaM1Zig.png" alt="Contact SBT Executive" style="
+        width:100%; height:auto; max-height:460px; object-fit:cover;
+        border-radius:20px; box-shadow:0 8px 24px rgba(0,0,0,0.3);
+      ">
+    </div>
+
+  </div>
+
+  <!-- Hidden Form -->
+  <div id="formulaireEntreprise" style="
+    display:none; margin:80px auto 0; max-width:800px;
+    background:#FFFFFF; color:#061338;
+    border-radius:20px; padding:60px 70px;
+    box-shadow:0 8px 25px rgba(6,19,56,0.15);
+  ">
+    <h3 style="
+      font-family:'Playfair Display',serif; font-size:28px;
+      margin-bottom:20px; color:#031034;
+    ">
+      Describe your need
+    </h3>
+
+    <form id="client-form">
+      <label>Name *</label>
+      <input type="text" name="nom" required style="width:100%; padding:12px; margin-bottom:14px; border:1px solid #D9D9D9; border-radius:8px;">
+
+      <label>First name *</label>
+      <input type="text" name="prenom" required style="width:100%; padding:12px; margin-bottom:14px; border:1px solid #D9D9D9; border-radius:8px;">
+
+      <label>Position *</label>
+      <input type="text" name="fonction" placeholder="e.g. CEO, CHRO..." required style="width:100%; padding:12px; margin-bottom:14px; border:1px solid #D9D9D9; border-radius:8px;">
+
+      <label>Company *</label>
+      <input type="text" name="entreprise" required style="width:100%; padding:12px; margin-bottom:14px; border:1px solid #D9D9D9; border-radius:8px;">
+
+      <label>Your need relates to:</label>
+      <div style="margin-top:10px; margin-bottom:14px;">
+        <label><input type="checkbox" name="besoin" value="Recruit"> Recruit</label><br>
+        <label><input type="checkbox" name="besoin" value="Develop"> Develop</label><br>
+        <label><input type="checkbox" name="besoin" value="Prepare"> Prepare</label><br>
+        <label><input type="checkbox" name="besoin" value="Engage"> Engage</label>
+      </div>
+
+      <label>Please describe your context</label>
+      <textarea name="message" rows="4" placeholder="Tell us briefly about your context, challenges, or mission..." style="width:100%; padding:12px; border:1px solid #D9D9D9; border-radius:8px;"></textarea>
+
+      <div style="margin-top:18px; font-size:14px;">
+        <label><input type="checkbox" required> 
+          I consent to the processing of my data in accordance with the 
+          <a href="/privacy-policy" target="_blank" style="color:#45D1FF;">privacy policy</a>.
+        </label>
+      </div>
+
+      <button type="submit" style="
+        margin-top:30px;
+        background:#45D1FF; border:none; color:#031034;
+        font-weight:700; font-family:'Montserrat',sans-serif;
+        padding:14px 36px; border-radius:40px;
+        cursor:pointer; transition:all 0.3s ease;
+      " onmouseover="this.style.background='#031034'; this.style.color='#FFFFFF';"
+         onmouseout="this.style.background='#45D1FF'; this.style.color='#031034';">
+        Send my request
+      </button>
+
+      <div id="success-msg-client" style="
+        background:#E6FAF8; border-left:4px solid #45D1FF;
+        padding:14px 18px; border-radius:6px;
+        margin-top:24px; display:none; color:#061338;
+      ">
+        Thank you for your message. Our team will get back to you within 48 hours.
+      </div>
+    </form>
+  </div>
+
+  <script>
+    document.getElementById("openFormBtn").addEventListener("click", function(){
+      const form = document.getElementById("formulaireEntreprise");
+      form.style.display = form.style.display === "block" ? "none" : "block";
+      this.textContent = form.style.display === "block" ? "Close form" : "📩 Share your request";
+    });
+
+    document.getElementById("client-form").addEventListener("submit", function(e){
+      e.preventDefault();
+      document.getElementById("success-msg-client").style.display = "block";
+      this.reset();
+    });
+  </script>
+</section>
+<!-- ✅ BLOC C – Rejoignez notre réseau confidentiel de talents (Version premium, cohérente avec le bloc entreprises) -->
+<section class="sbt-block sbt-split" style="background:#F7F8FA; color:#061338; padding:120px 0;">
+  <div class="sbt-container" style="
+    max-width:1200px; margin:0 auto; padding:0 40px;
+    display:flex; gap:80px; align-items:center; flex-wrap:wrap;
+  ">
+
+    <!-- Colonne texte -->
+    <div class="sbt-text" style="flex:1 1 560px; min-width:320px;">
+      <h2 class="sbt-title" style="
+        font-family:'Playfair Display',serif;
+        font-size:38px; color:#031034; margin:0 0 24px;
+        line-height:1.3;
+      ">
+        Rejoignez notre réseau confidentiel de talents
+      </h2>
+
+      <p style="
+        font-size:18px; font-weight:300; color:#2B2F3A;
+        line-height:1.7; margin:0 0 20px; max-width:90%;
+      ">
+        Vous souhaitez être considéré(e) pour de futures opportunités au sein des univers du <strong>sport</strong>, de l’<strong>entertainment</strong> ou du <strong>leisure</strong>&nbsp;?
+      </p>
+
+      <p style="
+        font-size:17px; line-height:1.8; color:#434A57;
+        margin:0 0 36px; max-width:90%;
+      ">
+        En rejoignant notre réseau confidentiel, votre profil sera analysé selon vos <strong>compétences</strong>, <strong>expériences</strong> et <strong>aspirations</strong>.  
+        Nous vous contacterons uniquement lorsqu’une opportunité alignée à votre parcours se présentera.  
+        Toutes les données sont traitées en stricte <strong>confidentialité</strong>, conformément au RGPD.
+      </p>
+
+      <button id="openCandidateFormBtn" style="
+        background:#45D1FF; color:#031034; font-weight:600;
+        font-size:16px; border:none; border-radius:40px;
+        padding:14px 36px; cursor:pointer;
+        transition:all 0.3s ease;
+      " onmouseover="this.style.background='#061338'; this.style.color='#FFFFFF';"
+         onmouseout="this.style.background='#45D1FF'; this.style.color='#031034';">
+        📎 Partager mon profil
+      </button>
+    </div>
+
+    <!-- Colonne image -->
+    <div class="sbt-image" style="flex:1 1 520px; min-width:320px; text-align:center;">
+      <img src="https://i.imgur.com/bozT7bW.png" alt="SBT Executive Talent Network" style="
+        width:100%; height:auto; max-height:460px; object-fit:cover;
+        border-radius:20px; box-shadow:0 8px 24px rgba(0,0,0,0.1);
+      ">
+    </div>
+  </div>
+
+  <!-- FORMULAIRE CANDIDAT MASQUÉ -->
+  <div id="formulaireCandidat" style="
+    display:none; margin:80px auto 0; max-width:800px;
+    background:#FFFFFF; color:#061338;
+    border-radius:20px; padding:60px 70px;
+    box-shadow:0 8px 25px rgba(6,19,56,0.1);
+  ">
+    <h3 style="
+      font-family:'Playfair Display',serif; font-size:28px;
+      margin-bottom:20px; color:#031034;
+    ">
+      Partagez votre profil confidentiellement
+    </h3>
+
+    <form id="candidate-form">
+      <label>Nom *</label>
+      <input type="text" name="nom" required style="width:100%; padding:12px; margin-bottom:14px; border:1px solid #D9D9D9; border-radius:8px;">
+
+      <label>Prénom *</label>
+      <input type="text" name="prenom" required style="width:100%; padding:12px; margin-bottom:14px; border:1px solid #D9D9D9; border-radius:8px;">
+
+      <label>Email *</label>
+      <input type="email" name="email" required style="width:100%; padding:12px; margin-bottom:14px; border:1px solid #D9D9D9; border-radius:8px;">
+
+      <label>Localisation actuelle (ville / pays)</label>
+      <input type="text" name="localisation" style="width:100%; padding:12px; margin-bottom:14px; border:1px solid #D9D9D9; border-radius:8px;">
+
+      <label>Mobilité géographique</label>
+      <select name="mobilite" style="width:100%; padding:12px; margin-bottom:14px; border:1px solid #D9D9D9; border-radius:8px;">
+        <option value="">Sélectionnez...</option>
+        <option>France</option>
+        <option>Europe</option>
+        <option>Middle East</option>
+        <option>Asia</option>
+        <option>North America</option>
+        <option>South America</option>
+        <option>Africa</option>
+      </select>
+
+      <label>Poste actuel</label>
+      <input type="text" name="poste_actuel" placeholder="Ex : Directeur Commercial" style="width:100%; padding:12px; margin-bottom:14px; border:1px solid #D9D9D9; border-radius:8px;">
+
+      <label>Entreprise actuelle</label>
+      <input type="text" name="entreprise_actuelle" placeholder="Ex : PSG, Ubisoft, Decathlon..." style="width:100%; padding:12px; margin-bottom:14px; border:1px solid #D9D9D9; border-radius:8px;">
+
+      <label>CV / Résumé de carrière *</label>
+      <input type="file" name="cv" accept=".pdf,.doc,.docx" required style="width:100%; padding:10px; margin-bottom:14px; border:1px solid #D9D9D9; border-radius:8px;">
+
+      <label>Commentaires ou précisions</label>
+      <textarea name="commentaires" rows="3" style="width:100%; padding:12px; border:1px solid #D9D9D9; border-radius:8px;"></textarea>
+
+      <div style="margin-top:18px; font-size:14px;">
+        <label><input type="checkbox" required> 
+          Je consens au traitement de mes données personnelles conformément à la 
+          <a href="/politique-de-confidentialite" target="_blank" style="color:#45D1FF;">politique de confidentialité</a>.
+        </label>
+      </div>
+
+      <button type="submit" style="
+        margin-top:30px;
+        background:#45D1FF; border:none; color:#031034;
+        font-weight:700; font-family:'Montserrat',sans-serif;
+        padding:14px 36px; border-radius:40px;
+        cursor:pointer; transition:all 0.3s ease;
+      " onmouseover="this.style.background='#031034'; this.style.color='#FFFFFF';"
+         onmouseout="this.style.background='#45D1FF'; this.style.color='#031034';">
+        Envoyer ma candidature
+      </button>
+
+      <div id="success-msg-candidat" style="
+        background:#E6FAF8; border-left:4px solid #45D1FF;
+        padding:14px 18px; border-radius:6px;
+        margin-top:24px; display:none; color:#061338;
+      ">
+        Merci pour votre candidature. Nous vous contacterons si une opportunité correspond à votre profil.
+      </div>
+    </form>
+  </div>
+
+  <script>
+    document.getElementById("openCandidateFormBtn").addEventListener("click", function(){
+      const form = document.getElementById("formulaireCandidat");
+      form.style.display = form.style.display === "block" ? "none" : "block";
+      this.textContent = form.style.display === "block" ? "Fermer le formulaire" : "📎 Partager mon profil";
+    });
+
+    document.getElementById("candidate-form").addEventListener("submit", function(e){
+      e.preventDefault();
+      document.getElementById("success-msg-candidat").style.display = "block";
+      this.reset();
+    });
+  </script>
+</section>
+<!-- ✅ BLOC C – Join Our Confidential Talent Network (Premium English Version) -->
+<section class="sbt-block sbt-split" style="background:#F7F8FA; color:#061338; padding:120px 0;">
+  <div class="sbt-container" style="
+    max-width:1200px; margin:0 auto; padding:0 40px;
+    display:flex; gap:80px; align-items:center; flex-wrap:wrap;
+  ">
+
+    <!-- Text Column -->
+    <div class="sbt-text" style="flex:1 1 560px; min-width:320px;">
+      <h2 class="sbt-title" style="
+        font-family:'Playfair Display',serif;
+        font-size:38px; color:#031034; margin:0 0 24px;
+        line-height:1.3;
+      ">
+        Join Our Confidential Talent Network
+      </h2>
+
+      <p style="
+        font-size:18px; font-weight:300; color:#2B2F3A;
+        line-height:1.7; margin:0 0 20px; max-width:90%;
+      ">
+        Would you like to be considered for future opportunities in the worlds of <strong>sport</strong>, <strong>entertainment</strong> or <strong>leisure</strong>?
+      </p>
+
+      <p style="
+        font-size:17px; line-height:1.8; color:#434A57;
+        margin:0 0 36px; max-width:90%;
+      ">
+        By joining our confidential network, your profile will be reviewed and classified according to your <strong>skills</strong>, <strong>experience</strong> and <strong>aspirations</strong>.  
+        You will only be contacted when a role truly aligns with your background.  
+        All information is treated with strict <strong>confidentiality</strong> and in full compliance with GDPR.
+      </p>
+
+      <button id="openCandidateFormBtn" style="
+        background:#45D1FF; color:#031034; font-weight:600;
+        font-size:16px; border:none; border-radius:40px;
+        padding:14px 36px; cursor:pointer;
+        transition:all 0.3s ease;
+      " onmouseover="this.style.background='#061338'; this.style.color='#FFFFFF';"
+         onmouseout="this.style.background='#45D1FF'; this.style.color='#031034';">
+        📎 Share My Profile
+      </button>
+    </div>
+
+    <!-- Image Column -->
+    <div class="sbt-image" style="flex:1 1 520px; min-width:320px; text-align:center;">
+      <img src="https://i.imgur.com/bozT7bW.png" alt="SBT Executive Talent Network" style="
+        width:100%; height:auto; max-height:460px; object-fit:cover;
+        border-radius:20px; box-shadow:0 8px 24px rgba(0,0,0,0.1);
+      ">
+    </div>
+  </div>
+
+  <!-- HIDDEN TALENT FORM -->
+  <div id="formulaireCandidat" style="
+    display:none; margin:80px auto 0; max-width:800px;
+    background:#FFFFFF; color:#061338;
+    border-radius:20px; padding:60px 70px;
+    box-shadow:0 8px 25px rgba(6,19,56,0.1);
+  ">
+    <h3 style="
+      font-family:'Playfair Display',serif; font-size:28px;
+      margin-bottom:20px; color:#031034;
+    ">
+      Submit Your Profile Confidentially
+    </h3>
+
+    <form id="candidate-form">
+      <label>Last Name *</label>
+      <input type="text" name="last_name" required style="width:100%; padding:12px; margin-bottom:14px; border:1px solid #D9D9D9; border-radius:8px;">
+
+      <label>First Name *</label>
+      <input type="text" name="first_name" required style="width:100%; padding:12px; margin-bottom:14px; border:1px solid #D9D9D9; border-radius:8px;">
+
+      <label>Email *</label>
+      <input type="email" name="email" required style="width:100%; padding:12px; margin-bottom:14px; border:1px solid #D9D9D9; border-radius:8px;">
+
+      <label>Current Location (City / Country)</label>
+      <input type="text" name="location" style="width:100%; padding:12px; margin-bottom:14px; border:1px solid #D9D9D9; border-radius:8px;">
+
+      <label>Geographical Mobility</label>
+      <select name="mobility" style="width:100%; padding:12px; margin-bottom:14px; border:1px solid #D9D9D9; border-radius:8px;">
+        <option value="">Select...</option>
+        <option>France</option>
+        <option>Europe</option>
+        <option>Middle East</option>
+        <option>Asia</option>
+        <option>North America</option>
+        <option>South America</option>
+        <option>Africa</option>
+      </select>
+
+      <label>Current Position</label>
+      <input type="text" name="current_position" placeholder="e.g. Commercial Director" style="width:100%; padding:12px; margin-bottom:14px; border:1px solid #D9D9D9; border-radius:8px;">
+
+      <label>Current Company</label>
+      <input type="text" name="current_company" placeholder="e.g. PSG, LVMH, Ubisoft..." style="width:100%; padding:12px; margin-bottom:14px; border:1px solid #D9D9D9; border-radius:8px;">
+
+      <label>Resume / CV *</label>
+      <input type="file" name="cv" accept=".pdf,.doc,.docx" required style="width:100%; padding:10px; margin-bottom:14px; border:1px solid #D9D9D9; border-radius:8px;">
+
+      <label>Additional Notes</label>
+      <textarea name="notes" rows="3" style="width:100%; padding:12px; border:1px solid #D9D9D9; border-radius:8px;"></textarea>
+
+      <div style="margin-top:18px; font-size:14px;">
+        <label><input type="checkbox" required> 
+          I consent to the processing of my personal data in accordance with the 
+          <a href="/privacy-policy" target="_blank" style="color:#45D1FF;">privacy policy</a>.
+        </label>
+      </div>
+
+      <button type="submit" style="
+        margin-top:30px;
+        background:#45D1FF; border:none; color:#031034;
+        font-weight:700; font-family:'Montserrat',sans-serif;
+        padding:14px 36px; border-radius:40px;
+        cursor:pointer; transition:all 0.3s ease;
+      " onmouseover="this.style.background='#031034'; this.style.color='#FFFFFF';"
+         onmouseout="this.style.background='#45D1FF'; this.style.color='#031034';">
+        Submit My Application
+      </button>
+
+      <div id="success-msg-candidat" style="
+        background:#E6FAF8; border-left:4px solid #45D1FF;
+        padding:14px 18px; border-radius:6px;
+        margin-top:24px; display:none; color:#061338;
+      ">
+        Thank you for your application. We will contact you if an opportunity matches your background.
+      </div>
+    </form>
+  </div>
+
+  <script>
+    document.getElementById("openCandidateFormBtn").addEventListener("click", function(){
+      const form = document.getElementById("formulaireCandidat");
+      form.style.display = form.style.display === "block" ? "none" : "block";
+      this.textContent = form.style.display === "block" ? "Close the Form" : "📎 Share My Profile";
+    });
+
+    document.getElementById("candidate-form").addEventListener("submit", function(e){
+      e.preventDefault();
+      document.getElementById("success-msg-candidat").style.display = "block";
+      this.reset();
+    });
+  </script>
+</section>

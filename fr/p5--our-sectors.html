@@ -1,0 +1,825 @@
+<!-- HERO – Nos univers d’expertise (Version FR) -->
+<section class="sbt-block sbt-hero" style="position: relative; overflow: hidden;">
+
+  <!-- Image de fond -->
+  <div class="sbt-bg" style="
+    background-image: url('https://i.imgur.com/8rTXE2U.png');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    inset: 0;
+    filter: brightness(0.65);
+  "></div>
+
+  <!-- Overlay bleu -->
+  <div style="
+    position: absolute;
+    inset: 0;
+    background: rgba(6, 19, 56, 0.55);
+  "></div>
+
+  <!-- Contenu -->
+  <div class="sbt-container" style="
+    position: relative;
+    z-index: 2;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 80px 40px;
+    color: #FFFFFF;
+  ">
+    <div class="sbt-text" style="
+      max-width: 720px;
+      backdrop-filter: blur(6px);
+      background: rgba(6, 19, 56, 0.35);
+      border-radius: 16px;
+      padding: 48px;
+    ">
+
+      <!-- Titre -->
+      <h2 class="sbt-title" style="
+        font-family: 'Playfair Display', serif;
+        font-size: 38px;
+        font-weight: 600;
+        margin-bottom: 20px;
+        color: #FFFFFF;
+      ">
+        Les univers qui font vibrer le monde
+      </h2>
+
+      <!-- Texte court -->
+      <p class="sbt-short" style="
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 1.6;
+        color: #D9D9D9;
+        margin-bottom: 24px;
+      ">
+        Nous accompagnons <strong style="color:#45D1FF;">les dirigeants et les talents clés</strong> 
+        des univers où l’émotion et la passion rassemblent les gens — 
+        <strong>Sport</strong>, <strong>Entertainment</strong> et <strong>Loisirs</strong> — 
+        là où <strong style="color:#45D1FF;">l’humain fait toute la différence</strong>.
+      </p>
+
+      <!-- Texte long (masqué par défaut) -->
+      <div id="longTextSectorsFR" style="display: none; margin-bottom: 24px;">
+        <p style="font-size: 17px; line-height: 1.8; color: #D9D9D9;">
+          Nos consultants connaissent ces univers de l’intérieur : 
+          anciens dirigeants, entrepreneurs, DRH ou coachs issus du 
+          <strong>sport</strong>, de <strong>l’entertainment</strong> ou des <strong>médias</strong>.  
+          Ils partagent une compréhension fine de leurs <strong style="color:#45D1FF;">dynamiques, rythmes et codes</strong>.  
+          Cette proximité nous permet de parler le même langage que nos clients 
+          et d’intervenir là où les enjeux sont les plus humains — 
+          <strong>leadership, engagement, transmission, transformation</strong>.
+        </p>
+
+        <p style="font-size: 17px; line-height: 1.8; color: #D9D9D9;">
+          Nous avons également choisi d’intégrer des experts venus d’autres horizons 
+          pour <strong style="color:#45D1FF;">enrichir nos approches</strong> 
+          et croiser les meilleures pratiques issues d’autres univers d’excellence.  
+          Car accompagner les leaders, c’est aussi leur offrir ce qu’ils ne trouvent pas toujours autour d’eux.
+        </p>
+
+        <p style="font-size: 17px; line-height: 1.8; color: #D9D9D9;">
+          Travailler dans ces industries d’émotions, c’est partager une conviction simple :  
+          <strong style="color:#45D1FF;">le succès durable repose sur la capacité à relier les gens, à donner du sens et à incarner des émotions authentiques</strong>.
+        </p>
+      </div>
+
+      <!-- Boutons -->
+      <div class="sbt-buttons" style="display: flex; gap: 16px; flex-wrap: wrap;">
+        <button id="toggleTextBtnSectorsFR" style="
+          background: transparent;
+          color: #45D1FF;
+          border: 1px solid #45D1FF;
+          padding: 10px 26px;
+          border-radius: 40px;
+          font-weight: 500;
+          cursor: pointer;
+          transition: all 0.3s ease;
+        " onmouseover="this.style.backgroundColor='#45D1FF'; this.style.color='#031034';"
+           onmouseout="this.style.backgroundColor='transparent'; this.style.color='#45D1FF';">
+          En savoir plus
+        </button>
+
+        <a href="/sectors/sport" class="sbt-button" style="
+          background-color: #45D1FF;
+          color: #031034;
+          font-weight: 600;
+          padding: 10px 26px;
+          border-radius: 40px;
+          text-decoration: none;
+          transition: all 0.3s ease;
+        " onmouseover="this.style.backgroundColor='#ffffff';"
+           onmouseout="this.style.backgroundColor='#45D1FF';">
+          Découvrir nos expertises sectorielles
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Script JS -->
+  <script>
+    document.getElementById('toggleTextBtnSectorsFR').addEventListener('click', function() {
+      const longText = document.getElementById('longTextSectorsFR');
+      const isVisible = longText.style.display === 'block';
+      longText.style.display = isVisible ? 'none' : 'block';
+      this.textContent = isVisible ? 'En savoir plus' : 'Réduire';
+    });
+  </script>
+</section>
+<!-- HERO BLOCK – Sectors of Expertise (EN) -->
+<section class="sbt-block sbt-hero" style="position: relative; overflow: hidden;">
+
+  <!-- Background image -->
+  <div class="sbt-bg" style="
+    background-image: url('https://i.imgur.com/8rTXE2U.png');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    inset: 0;
+    filter: brightness(0.6);
+  "></div>
+
+  <!-- Blue overlay -->
+  <div style="
+    position: absolute;
+    inset: 0;
+    background: rgba(6, 19, 56, 0.55);
+  "></div>
+
+  <!-- Content -->
+  <div class="sbt-container" style="
+    position: relative;
+    z-index: 2;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 80px 40px;
+    color: #FFFFFF;
+  ">
+    <div class="sbt-text" style="
+      max-width: 720px;
+      backdrop-filter: blur(6px);
+      background: rgba(6, 19, 56, 0.35);
+      border-radius: 16px;
+      padding: 48px;
+    ">
+
+      <h2 class="sbt-title" style="
+        font-family: 'Playfair Display', serif;
+        font-size: 38px;
+        font-weight: 600;
+        margin-bottom: 20px;
+        color: #FFFFFF;
+      ">
+        The worlds that move the world
+      </h2>
+
+      <!-- Short text -->
+      <p class="sbt-short" style="
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 1.6;
+        color: #D9D9D9;
+        margin-bottom: 24px;
+      ">
+        We accompany <strong style="color:#45D1FF;">leaders and key talents</strong> in industries that inspire passion and bring people together — 
+        <strong>Sport</strong>, <strong>Entertainment</strong>, and <strong>Leisure</strong> — 
+        where the <strong style="color:#45D1FF;">human connection</strong> makes all the difference.
+      </p>
+
+      <!-- Long text (hidden by default) -->
+      <div id="longTextSectorsEN" style="display: none; margin-bottom: 24px;">
+        <p style="font-size: 17px; line-height: 1.8; color: #D9D9D9;">
+          Our consultants know these worlds from the inside: former executives, entrepreneurs, HR directors, and performance coaches 
+          from the <strong>sports, entertainment, and media</strong> industries.  
+          They share a deep understanding of their <strong style="color:#45D1FF;">rhythms, dynamics, and codes</strong>.  
+          This closeness allows us to speak the same language as our clients and to intervene where the most human challenges arise — 
+          <strong>leadership, engagement, transmission, transformation</strong>.
+        </p>
+        <p style="font-size: 17px; line-height: 1.8; color: #D9D9D9;">
+          We also integrate experts from other excellence-driven industries to enrich our perspectives and cross-pollinate best practices.  
+          Because supporting leaders also means offering them what they rarely find around them.
+        </p>
+        <p style="font-size: 17px; line-height: 1.8; color: #D9D9D9;">
+          Working within these worlds of emotion means embracing a simple conviction:  
+          <strong style="color:#45D1FF;">lasting success is born from meaning, connection, and authenticity</strong>.
+        </p>
+      </div>
+
+      <!-- Buttons -->
+      <div class="sbt-buttons" style="display: flex; gap: 16px; flex-wrap: wrap;">
+        <button id="toggleTextBtnSectorsEN" style="
+          background: transparent;
+          color: #45D1FF;
+          border: 1px solid #45D1FF;
+          padding: 10px 26px;
+          border-radius: 40px;
+          font-weight: 500;
+          cursor: pointer;
+          transition: all 0.3s ease;
+        " onmouseover="this.style.backgroundColor='#45D1FF'; this.style.color='#031034';"
+           onmouseout="this.style.backgroundColor='transparent'; this.style.color='#45D1FF';">
+          Read more
+        </button>
+
+        <a href="/sectors/sport" class="sbt-button" style="
+          background-color: #45D1FF;
+          color: #031034;
+          font-weight: 600;
+          padding: 10px 26px;
+          border-radius: 40px;
+          text-decoration: none;
+          transition: all 0.3s ease;
+        " onmouseover="this.style.backgroundColor='#ffffff';"
+           onmouseout="this.style.backgroundColor='#45D1FF';">
+          Discover our sector expertise
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- JS Toggle -->
+  <script>
+    document.getElementById('toggleTextBtnSectorsEN').addEventListener('click', function() {
+      const longText = document.getElementById('longTextSectorsEN');
+      const isVisible = longText.style.display === 'block';
+      longText.style.display = isVisible ? 'none' : 'block';
+      this.textContent = isVisible ? 'Read more' : 'Collapse';
+    });
+  </script>
+
+</section>
+<!-- BLOC B – Sport : Là où la passion devient un défi humain -->
+<section class="sbt-block sbt-split" style="background:#FFFFFF; padding:80px 0;">
+  <div class="sbt-container" style="
+    max-width:1200px; margin:0 auto; padding:0 24px;
+    display:flex; gap:48px; align-items:center; flex-wrap:wrap;
+  ">
+
+    <!-- Colonne texte -->
+    <div class="sbt-text" style="flex:1 1 520px; min-width:320px;">
+      <h2 class="sbt-title" style="
+        font-family:'Playfair Display', serif;
+        font-size:36px; color:#031034; margin:0 0 16px; line-height:1.3;
+      ">
+        Là où la passion devient un <span style="color:#45D1FF;">défi humain</span>
+      </h2>
+
+      <!-- Texte court -->
+      <p class="sbt-intro" style="
+        font-size:19px; line-height:1.75; color:#2B2F3A; margin:0 0 24px;
+      ">
+        <strong>Clubs, ligues, fédérations, sponsors, médias, SportTech</strong> :  
+        nous accompagnons <strong style="color:#45D1FF;">ceux qui font vibrer le sport d’aujourd’hui</strong> et façonnent celui de demain.  
+        Dans un environnement où la performance s’entrelace à l’émotion,  
+        <strong>nos missions allient exigence, compréhension humaine et vision stratégique</strong> —  
+        car c’est là que se joue la différence entre un succès ponctuel et un impact durable.
+      </p>
+
+      <!-- Texte long (caché par défaut) -->
+      <div id="blocB-long" style="display:none;">
+        <p class="sbt-body" style="
+          font-size:17.5px; line-height:1.9; color:#434A57; margin:0 0 28px;
+        ">
+          Depuis près de <strong>quinze ans</strong>, nous accompagnons les <strong>dirigeants</strong>, <strong>DRH</strong> et <strong>talents clés</strong> du monde du sport —  
+          un univers où <strong style="color:#45D1FF;">la passion rencontre la performance</strong>,  
+          et où chaque transformation repose sur l’humain.<br><br>
+
+          Notre équipe réunit <strong>d’anciens dirigeants</strong>, <strong>DRH</strong>, <strong>consultants en transformation</strong>  
+          et <strong>chasseurs de têtes issus directement de l’industrie</strong>.  
+          Ils connaissent ses rythmes, ses cultures et ses équilibres,  
+          où <strong style="color:#45D1FF;">la pression du résultat</strong> s’allie à <strong>l’émotion</strong>  
+          et où chaque décision engage le collectif.<br><br>
+
+          Nous intervenons auprès de <strong>clubs professionnels</strong>, <strong>fédérations</strong>, <strong>ayants droit</strong>,  
+          <strong>sponsors</strong>, <strong>équipementiers</strong>, <strong>diffuseurs</strong>, <strong>agences</strong>,  
+          <strong>start-ups de la SportTech</strong>, <strong>comités d’organisation</strong> et <strong>investisseurs</strong>.  
+          Nos missions couvrent l’ensemble des fonctions de leadership :  
+          <strong>direction générale</strong>, <strong>marketing</strong>, <strong>digital</strong>, <strong>commerciale</strong>,  
+          <strong>financière</strong>, <strong>sportive</strong> et <strong>performance</strong>.<br><br>
+
+          Au-delà du recrutement, nous accompagnons les dirigeants dans leurs <strong>transitions</strong>,  
+          leurs <strong>choix stratégiques</strong> et leurs <strong>transformations humaines</strong>.  
+          Car dans le sport plus que partout ailleurs,  
+          <strong style="color:#45D1FF;">l’humain n’est pas un levier parmi d’autres</strong> —  
+          il est <strong>la condition même de l’excellence</strong>  
+          et de <strong>l’inspiration collective</strong>.
+        </p>
+      </div>
+
+      <!-- Bouton "En savoir plus" -->
+      <button id="toggleBlocB" style="
+        background:none; border:none; color:#45D1FF; font-weight:600;
+        cursor:pointer; margin-bottom:24px; font-size:16px;
+      " onclick="
+        const longText=document.getElementById('blocB-long');
+        longText.style.display = longText.style.display==='none' ? 'block' : 'none';
+        this.textContent = this.textContent==='En savoir plus' ? 'Réduire' : 'En savoir plus';
+      ">
+        En savoir plus
+      </button>
+      <br>
+
+      <!-- CTA principal -->
+      <a href='/contact' class="sbt-button" style="
+        display:inline-block; background:#45D1FF; color:#031034; text-decoration:none;
+        font-weight:700; padding:14px 32px; border-radius:36px; font-size:16px;
+        letter-spacing:0.2px; transition:.25s;
+      " onmouseover="this.style.background='#ffffff'; this.style.color='#031034';" onmouseout="this.style.background='#45D1FF'; this.style.color='#031034';">
+        🤝 Prendre un moment pour une discussion confidentielle
+      </a>
+    </div>
+
+    <!-- Colonne image -->
+    <div class="sbt-image" style="
+      flex:1 1 520px; min-width:320px; position:relative;
+    ">
+      <img src="https://i.imgur.com/9QT0y0B.jpeg" 
+           alt="SBT Executive — Sport" 
+           style="
+             width:100%; height:100%; max-height:520px; object-fit:cover;
+             border-radius:16px; box-shadow:0 12px 30px rgba(3,16,52,.12);
+           ">
+    </div>
+
+  </div>
+</section>
+<!-- BLOC B – Sport: Where passion becomes a human challenge -->
+<section class="sbt-block sbt-split" style="background:#FFFFFF; padding:80px 0;">
+  <div class="sbt-container" style="
+    max-width:1200px; margin:0 auto; padding:0 24px;
+    display:flex; gap:48px; align-items:center; flex-wrap:wrap;
+  ">
+
+    <!-- Text column -->
+    <div class="sbt-text" style="flex:1 1 520px; min-width:320px;">
+      <h2 class="sbt-title" style="
+        font-family:'Playfair Display', serif;
+        font-size:36px; color:#031034; margin:0 0 16px; line-height:1.3;
+      ">
+        Where passion becomes a <span style="color:#45D1FF;">human challenge</span>
+      </h2>
+
+      <!-- Short text -->
+      <p class="sbt-intro" style="
+        font-size:19px; line-height:1.75; color:#2B2F3A; margin:0 0 24px;
+      ">
+        <strong>Clubs, leagues, federations, sponsors, media and SportTech companies</strong> —  
+        we partner with <strong style="color:#45D1FF;">those who make sport come alive today</strong>  
+        and build its future.  
+        In an environment where <strong>performance meets emotion</strong>,  
+        our work blends <strong>strategic insight, deep human understanding, and a culture of excellence</strong>.  
+        Because in sport, success is never just about results — it’s about people, vision, and impact.
+      </p>
+
+      <!-- Long text (hidden by default) -->
+      <div id="blocB-long" style="display:none;">
+        <p class="sbt-body" style="
+          font-size:17.5px; line-height:1.9; color:#434A57; margin:0 0 28px;
+        ">
+          For almost <strong>fifteen years</strong>, we have advised <strong>leaders</strong>, <strong>HR directors</strong>, and <strong>key talents</strong> across the sports industry —  
+          a world where <strong style="color:#45D1FF;">passion meets performance</strong>,  
+          and every transformation depends on people.<br><br>
+
+          Our team brings together <strong>former executives</strong>, <strong>HR leaders</strong>,  
+          <strong>transformation consultants</strong> and <strong>executive search specialists</strong>  
+          directly from within the industry.  
+          They understand its rhythms, its cultures and its dynamics —  
+          where <strong style="color:#45D1FF;">pressure for results</strong> meets <strong>emotion</strong>,  
+          and where every decision engages the collective.<br><br>
+
+          We work with <strong>professional clubs</strong>, <strong>federations</strong>, <strong>rights holders</strong>,  
+          <strong>sponsors</strong>, <strong>equipment manufacturers</strong>, <strong>broadcasters</strong>,  
+          <strong>agencies</strong>, <strong>SportTech start-ups</strong>, <strong>event committees</strong> and <strong>investors</strong>.  
+          Our mandates cover all areas of leadership:  
+          <strong>general management</strong>, <strong>marketing</strong>, <strong>digital</strong>,  
+          <strong>commercial</strong>, <strong>finance</strong>, <strong>sporting</strong> and <strong>performance</strong> roles.<br><br>
+
+          Beyond recruitment, we support leaders in their <strong>career transitions</strong>,  
+          their <strong>strategic choices</strong> and their <strong>human transformations</strong>.  
+          Because in sport more than anywhere else,  
+          <strong style="color:#45D1FF;">people are not just a performance lever</strong> —  
+          they are <strong>the very foundation of excellence</strong>  
+          and <strong>collective inspiration</strong>.
+        </p>
+      </div>
+
+      <!-- Read more button -->
+      <button id="toggleBlocB" style="
+        background:none; border:none; color:#45D1FF; font-weight:600;
+        cursor:pointer; margin-bottom:24px; font-size:16px;
+      " onclick="
+        const longText=document.getElementById('blocB-long');
+        longText.style.display = longText.style.display==='none' ? 'block' : 'none';
+        this.textContent = this.textContent==='Read more' ? 'Show less' : 'Read more';
+      ">
+        Read more
+      </button>
+      <br>
+
+      <!-- CTA -->
+      <a href='/contact' class="sbt-button" style="
+        display:inline-block; background:#45D1FF; color:#031034; text-decoration:none;
+        font-weight:700; padding:14px 32px; border-radius:36px; font-size:16px;
+        letter-spacing:0.2px; transition:.25s;
+      " onmouseover="this.style.background='#ffffff'; this.style.color='#031034';" onmouseout="this.style.background='#45D1FF'; this.style.color='#031034';">
+        🤝 Take a moment for a confidential discussion
+      </a>
+    </div>
+
+    <!-- Image column -->
+    <div class="sbt-image" style="
+      flex:1 1 520px; min-width:320px; position:relative;
+    ">
+      <img src="https://i.imgur.com/9QT0y0B.jpeg" 
+           alt="SBT Executive — Sport" 
+           style="
+             width:100%; height:100%; max-height:520px; object-fit:cover;
+             border-radius:16px; box-shadow:0 12px 30px rgba(3,16,52,.12);
+           ">
+    </div>
+
+  </div>
+</section>
+<!-- BLOC C – Entertainment : Accompagner ceux qui façonnent l’imaginaire collectif -->
+<section class="sbt-block sbt-split" style="background:#FFFFFF; padding:80px 0;">
+  <div class="sbt-container" style="
+    max-width:1200px; margin:0 auto; padding:0 24px;
+    display:flex; gap:48px; align-items:center; flex-wrap:wrap;
+  ">
+
+    <!-- Colonne texte -->
+    <div class="sbt-text" style="flex:1 1 520px; min-width:320px; font-family:'Lato', sans-serif;">
+      <h2 class="sbt-title" style="
+        font-family:'Playfair Display', serif;
+        font-size:36px; color:#031034; margin:0 0 16px; line-height:1.3;
+      ">
+        Accompagner ceux qui <span style="color:#45D1FF;">façonnent l’imaginaire collectif</span>
+      </h2>
+
+      <!-- Texte court -->
+      <p class="sbt-intro" style="
+        font-size:19px; line-height:1.75; color:#2B2F3A; margin:0 0 24px;
+      ">
+        <strong>Studios, plateformes, spectacles vivants, jeux vidéo…</strong>  
+        nous accompagnons les <strong style="color:#45D1FF;">créateurs d’émotions et de culture</strong>,  
+        au croisement de <strong>l’art</strong>, de <strong>la technologie</strong> et de <strong>la stratégie</strong>.  
+        Dans un univers en constante évolution, nous aidons les dirigeants et leurs équipes  
+        à <strong>transformer la créativité en impact</strong> et la <strong>vision en expérience partagée</strong>.
+      </p>
+
+      <!-- Texte long (caché par défaut) -->
+      <div id="blocC-long" style="display:none;">
+        <p class="sbt-body" style="
+          font-size:17.5px; line-height:1.9; color:#434A57; margin:0 0 28px;
+        ">
+          L’<strong>industrie de l’entertainment</strong> est un écosystème en perpétuelle effervescence —  
+          un monde où <strong style="color:#45D1FF;">la créativité, la technologie et l’émotion</strong> se rencontrent  
+          pour façonner notre imaginaire collectif.<br><br>
+
+          Chez <strong>SBT Executive</strong>, nous accompagnons celles et ceux qui orchestrent cette alchimie subtile  
+          entre <strong>inspiration</strong>, <strong>innovation</strong> et <strong>performance</strong>.  
+          Notre équipe intervient auprès de <strong>studios de production</strong>,  
+          <strong>plateformes de streaming</strong>, <strong>maisons de disques</strong>,  
+          <strong>compagnies de spectacle vivant</strong>, <strong>acteurs du jeu vidéo</strong>,  
+          <strong>agences artistiques</strong>, ainsi que <strong>structures indépendantes</strong>  
+          et <strong>groupes internationaux</strong>.<br><br>
+
+          Nos missions couvrent les fonctions clés du <strong>leadership créatif et opérationnel</strong> :  
+          <strong>direction générale</strong>, <strong>direction artistique</strong>,  
+          <strong>marketing</strong>, <strong>production</strong>,  
+          <strong>ressources humaines</strong> et <strong>transformation</strong>.  
+          Nous aidons les organisations à <strong style="color:#45D1FF;">identifier et développer des leaders</strong>  
+          capables d’incarner une vision, de fédérer les équipes et de porter la création vers de nouveaux horizons.<br><br>
+
+          Dans un univers où la concurrence se joue autant sur le <strong>talent</strong>  
+          que sur la <strong>capacité à émouvoir</strong>,  
+          nous croyons que la réussite naît d’un <strong>leadership profondément humain</strong> —  
+          celui qui <strong style="color:#45D1FF;">fait résonner la vision avec les émotions</strong>  
+          et transforme la création en <strong>expérience partagée</strong>.
+        </p>
+      </div>
+
+      <!-- Bouton "En savoir plus" -->
+      <button id="toggleBlocC" style="
+        background:none; border:none; color:#45D1FF; font-weight:600;
+        cursor:pointer; margin-bottom:24px; font-size:16px;
+      " onclick="
+        const longText=document.getElementById('blocC-long');
+        longText.style.display = longText.style.display==='none' ? 'block' : 'none';
+        this.textContent = this.textContent==='En savoir plus' ? 'Réduire' : 'En savoir plus';
+      ">
+        En savoir plus
+      </button>
+      <br>
+
+      <!-- CTA -->
+      <a href='/contact' class="sbt-button" style="
+        display:inline-block; background:#45D1FF; color:#031034; text-decoration:none;
+        font-weight:700; padding:14px 32px; border-radius:36px; font-size:16px;
+        letter-spacing:0.2px; transition:.25s;
+      " onmouseover="this.style.background='#ffffff'; this.style.color='#031034';" onmouseout="this.style.background='#45D1FF'; this.style.color='#031034';">
+        🤝 Prendre un moment pour une discussion confidentielle
+      </a>
+    </div>
+
+    <!-- Colonne image -->
+    <div class="sbt-image" style="
+      flex:1 1 520px; min-width:320px; position:relative;
+    ">
+      <img src="https://i.imgur.com/HbBKfyx.png" 
+           alt="SBT Executive — Entertainment" 
+           style="
+             width:100%; height:100%; max-height:520px; object-fit:cover;
+             border-radius:16px; box-shadow:0 12px 30px rgba(3,16,52,.12);
+           ">
+    </div>
+
+  </div>
+</section>
+<!-- BLOC C – Entertainment: Supporting those who shape our collective imagination -->
+<section class="sbt-block sbt-split" style="background:#FFFFFF; padding:80px 0;">
+  <div class="sbt-container" style="
+    max-width:1200px; margin:0 auto; padding:0 24px;
+    display:flex; gap:48px; align-items:center; flex-wrap:wrap;
+  ">
+
+    <!-- Text column -->
+    <div class="sbt-text" style="flex:1 1 520px; min-width:320px; font-family:'Lato', sans-serif;">
+      <h2 class="sbt-title" style="
+        font-family:'Playfair Display', serif;
+        font-size:36px; color:#031034; margin:0 0 16px; line-height:1.3;
+      ">
+        Supporting those who <span style="color:#45D1FF;">shape our collective imagination</span>
+      </h2>
+
+      <!-- Short text -->
+      <p class="sbt-intro" style="
+        font-size:19px; line-height:1.75; color:#2B2F3A; margin:0 0 24px;
+      ">
+        <strong>Studios, streaming platforms, live entertainment, video games…</strong>  
+        we partner with the <strong style="color:#45D1FF;">creators of emotion and culture</strong>,  
+        standing at the crossroads of <strong>art, technology and strategy</strong>.  
+        In a constantly evolving ecosystem, we help leaders and teams  
+        <strong>turn creativity into impact</strong> and <strong>vision into collective experience</strong>.
+      </p>
+
+      <!-- Long text (hidden by default) -->
+      <div id="blocC-long" style="display:none;">
+        <p class="sbt-body" style="
+          font-size:17.5px; line-height:1.9; color:#434A57; margin:0 0 28px;
+        ">
+          The <strong>entertainment industry</strong> is a world in constant motion —  
+          a space where <strong style="color:#45D1FF;">creativity, technology and emotion</strong> converge  
+          to shape our shared imagination.<br><br>
+
+          At <strong>SBT Executive</strong>, we support those who orchestrate this delicate alchemy  
+          between <strong>inspiration, innovation and performance</strong>.  
+          Our team works alongside <strong>production studios</strong>,  
+          <strong>streaming platforms</strong>, <strong>music labels</strong>,  
+          <strong>live performance companies</strong>, <strong>video game developers</strong>,  
+          <strong>creative agencies</strong>, and both <strong>independent structures</strong>  
+          and <strong>international groups</strong>.<br><br>
+
+          Our mandates cover the key functions of <strong>creative and operational leadership</strong>:  
+          <strong>general management</strong>, <strong>artistic direction</strong>,  
+          <strong>marketing</strong>, <strong>production</strong>,  
+          <strong>human resources</strong> and <strong>transformation</strong>.  
+          We help organizations <strong style="color:#45D1FF;">identify and develop leaders</strong>  
+          capable of embodying a vision, uniting teams, and pushing creation beyond boundaries.<br><br>
+
+          In an environment where competition depends as much on <strong>talent</strong>  
+          as on the <strong>ability to move and inspire</strong>,  
+          we believe true success is born from a <strong>deeply human form of leadership</strong> —  
+          one that <strong style="color:#45D1FF;">connects vision with emotion</strong>  
+          and turns creativity into a shared experience.
+        </p>
+      </div>
+
+      <!-- Read more button -->
+      <button id="toggleBlocC" style="
+        background:none; border:none; color:#45D1FF; font-weight:600;
+        cursor:pointer; margin-bottom:24px; font-size:16px;
+      " onclick="
+        const longText=document.getElementById('blocC-long');
+        longText.style.display = longText.style.display==='none' ? 'block' : 'none';
+        this.textContent = this.textContent==='Read more' ? 'Show less' : 'Read more';
+      ">
+        Read more
+      </button>
+      <br>
+
+      <!-- CTA -->
+      <a href='/contact' class="sbt-button" style="
+        display:inline-block; background:#45D1FF; color:#031034; text-decoration:none;
+        font-weight:700; padding:14px 32px; border-radius:36px; font-size:16px;
+        letter-spacing:0.2px; transition:.25s;
+      " onmouseover="this.style.background='#ffffff'; this.style.color='#031034';" onmouseout="this.style.background='#45D1FF'; this.style.color='#031034';">
+        🤝 Take a moment for a confidential discussion
+      </a>
+    </div>
+
+    <!-- Image column -->
+    <div class="sbt-image" style="
+      flex:1 1 520px; min-width:320px; position:relative;
+    ">
+      <img src="https://i.imgur.com/HbBKfyx.png" 
+           alt="SBT Executive — Entertainment" 
+           style="
+             width:100%; height:100%; max-height:520px; object-fit:cover;
+             border-radius:16px; box-shadow:0 12px 30px rgba(3,16,52,.12);
+           ">
+    </div>
+
+  </div>
+</section>
+<!-- BLOC D – Leisure : Créer des expériences mémorables par un leadership inspirant -->
+<section class="sbt-block sbt-split" style="background:#FFFFFF; padding:80px 0;">
+  <div class="sbt-container" style="
+    max-width:1200px; margin:0 auto; padding:0 24px;
+    display:flex; gap:48px; align-items:center; flex-wrap:wrap;
+  ">
+
+    <!-- Colonne texte -->
+    <div class="sbt-text" style="flex:1 1 520px; min-width:320px; font-family:'Lato', sans-serif;">
+      <h2 class="sbt-title" style="
+        font-family:'Playfair Display', serif;
+        font-size:36px; color:#031034; margin:0 0 16px; line-height:1.3;
+      ">
+        Créer des expériences mémorables par un <span style="color:#45D1FF;">leadership inspirant</span>
+      </h2>
+
+      <!-- Texte court -->
+      <p class="sbt-intro" style="
+        font-size:19px; line-height:1.75; color:#2B2F3A; margin:0 0 24px;
+      ">
+        <strong>Parcs à thème, croisières, hôtellerie, tourisme, événements publics…</strong>  
+        nous accompagnons celles et ceux qui <strong style="color:#45D1FF;">transforment chaque instant en expérience</strong>,  
+        et chaque expérience en <strong>émotion durable</strong>.  
+        Dans cet écosystème vibrant, nous travaillons avec les organisations qui allient  
+        <strong>excellence opérationnelle</strong> et <strong>connexion humaine</strong>  
+        pour créer des moments qui laissent une empreinte.
+      </p>
+
+      <!-- Texte long (caché par défaut) -->
+      <div id="blocD-long" style="display:none;">
+        <p class="sbt-body" style="
+          font-size:17.5px; line-height:1.9; color:#434A57; margin:0 0 28px;
+        ">
+          L’<strong>industrie du loisir</strong> est portée par <strong style="color:#45D1FF;">l’émotion, l’hospitalité et l’expérience</strong>.  
+          Elle repose sur des femmes et des hommes capables de transformer chaque moment en souvenir durable —  
+          en associant <strong>excellence opérationnelle</strong> et véritable <strong>sens du service</strong>.<br><br>
+
+          Chez <strong>SBT Executive</strong>, nous accompagnons les dirigeants et talents clés de cet écosystème,  
+          où <strong style="color:#45D1FF;">la dimension humaine incarne chaque promesse de marque</strong>.  
+          Notre approche aide les organisations à aligner <strong>précision et inspiration</strong>,  
+          <strong>stratégie et empathie</strong>, <strong>performance et sens</strong> —  
+          pour créer des expériences qui <strong>résonnent et perdurent</strong>.<br><br>
+
+          Nous collaborons avec des <strong>groupes hôteliers</strong>, <strong>compagnies de croisières</strong>,  
+          <strong>parcs à thème</strong>, <strong>opérateurs touristiques</strong>, <strong>festivals</strong>,  
+          <strong>marques de bien-être</strong> et <strong>entreprises de loisirs familiaux</strong>.  
+          Nos missions couvrent l’ensemble des fonctions clés du leadership :  
+          <strong>direction générale</strong>, <strong>marketing</strong>, <strong>expérience client</strong>,  
+          <strong>RH</strong>, <strong>transformation</strong>, <strong>opérations</strong>,  
+          <strong>finance</strong> et <strong>retail</strong>.<br><br>
+
+          Dans un monde où <strong style="color:#45D1FF;">l’expérience est devenue un véritable moteur de fidélité et d’impact</strong>,  
+          nous croyons que la réussite durable naît d’un <strong>leadership incarné</strong> —  
+          celui qui unit <strong>performance, émotion et hospitalité</strong>  
+          pour créer des <strong>expériences inoubliables</strong>.
+        </p>
+      </div>
+
+      <!-- Bouton "En savoir plus" -->
+      <button id="toggleBlocD" style="
+        background:none; border:none; color:#45D1FF; font-weight:600;
+        cursor:pointer; margin-bottom:24px; font-size:16px;
+      " onclick="
+        const longText=document.getElementById('blocD-long');
+        longText.style.display = longText.style.display==='none' ? 'block' : 'none';
+        this.textContent = this.textContent==='En savoir plus' ? 'Réduire' : 'En savoir plus';
+      ">
+        En savoir plus
+      </button>
+      <br>
+
+      <!-- CTA -->
+      <a href='/contact' class="sbt-button" style="
+        display:inline-block; background:#45D1FF; color:#031034; text-decoration:none;
+        font-weight:700; padding:14px 32px; border-radius:36px; font-size:16px;
+        letter-spacing:0.2px; transition:.25s;
+      " onmouseover="this.style.background='#ffffff'; this.style.color='#031034';" onmouseout="this.style.background='#45D1FF'; this.style.color='#031034';">
+        🤝 Prendre un moment pour une discussion confidentielle
+      </a>
+    </div>
+
+    <!-- Colonne image -->
+    <div class="sbt-image" style="
+      flex:1 1 520px; min-width:320px; position:relative;
+    ">
+      <img src="https://i.imgur.com/aACR1pH.png" 
+           alt="SBT Executive — Leisure" 
+           style="
+             width:100%; height:100%; max-height:520px; object-fit:cover;
+             border-radius:16px; box-shadow:0 12px 30px rgba(3,16,52,.12);
+           ">
+    </div>
+
+  </div>
+</section>
+<!-- BLOC D – Leisure: Creating memorable experiences through inspiring leadership -->
+<section class="sbt-block sbt-split" style="background:#FFFFFF; padding:80px 0;">
+  <div class="sbt-container" style="
+    max-width:1200px; margin:0 auto; padding:0 24px;
+    display:flex; gap:48px; align-items:center; flex-wrap:wrap;
+  ">
+
+    <!-- Text column -->
+    <div class="sbt-text" style="flex:1 1 520px; min-width:320px; font-family:'Lato', sans-serif;">
+      <h2 class="sbt-title" style="
+        font-family:'Playfair Display', serif;
+        font-size:36px; color:#031034; margin:0 0 16px; line-height:1.3;
+      ">
+        Creating memorable experiences through <span style="color:#45D1FF;">inspiring leadership</span>
+      </h2>
+
+      <!-- Short text -->
+      <p class="sbt-intro" style="
+        font-size:19px; line-height:1.75; color:#2B2F3A; margin:0 0 24px;
+      ">
+        <strong>Theme parks, cruises, hospitality, tourism, public events…</strong>  
+        we support those who <strong style="color:#45D1FF;">turn every moment into an experience</strong>,  
+        and every experience into a <strong>lasting emotion</strong>.  
+        In this vibrant ecosystem, we partner with organisations that blend  
+        <strong>operational excellence</strong> and <strong>human connection</strong>  
+        to craft experiences that truly resonate.
+      </p>
+
+      <!-- Long text (hidden by default) -->
+      <div id="blocD-long" style="display:none;">
+        <p class="sbt-body" style="
+          font-size:17.5px; line-height:1.9; color:#434A57; margin:0 0 28px;
+        ">
+          The <strong>leisure industry</strong> is driven by <strong style="color:#45D1FF;">emotion, hospitality and experience</strong>.  
+          It depends on leaders who can transform each moment into a lasting memory —  
+          blending <strong>operational excellence</strong> with a genuine sense of <strong>care</strong>.<br><br>
+
+          At <strong>SBT Executive</strong>, we work with leaders and key talents across this ecosystem,  
+          where <strong style="color:#45D1FF;">the human touch defines every brand promise</strong>.  
+          Our approach helps organisations align <strong>precision with inspiration</strong>,  
+          <strong>strategy with empathy</strong>, and <strong>performance with purpose</strong> —  
+          to create meaningful experiences that <strong>resonate and endure</strong>.<br><br>
+
+          We partner with <strong>hotel groups</strong>, <strong>cruise lines</strong>, <strong>theme parks</strong>,  
+          <strong>tourism operators</strong>, <strong>festivals</strong>, <strong>wellness brands</strong>  
+          and <strong>family entertainment companies</strong>.  
+          Our mandates cover all major leadership functions:  
+          <strong>general management</strong>, <strong>marketing</strong>,  
+          <strong>customer experience</strong>, <strong>HR</strong>, <strong>transformation</strong>,  
+          <strong>operations</strong>, <strong>finance</strong> and <strong>retail</strong>.<br><br>
+
+          In a world where <strong style="color:#45D1FF;">experience has become the true driver of loyalty and impact</strong>,  
+          we believe that sustainable success arises from an <strong>embodied form of leadership</strong> —  
+          one that unites <strong>performance, emotion and hospitality</strong>  
+          to create <strong>unforgettable experiences</strong>.
+        </p>
+      </div>
+
+      <!-- Read more button -->
+      <button id="toggleBlocD" style="
+        background:none; border:none; color:#45D1FF; font-weight:600;
+        cursor:pointer; margin-bottom:24px; font-size:16px;
+      " onclick="
+        const longText=document.getElementById('blocD-long');
+        longText.style.display = longText.style.display==='none' ? 'block' : 'none';
+        this.textContent = this.textContent==='Read more' ? 'Show less' : 'Read more';
+      ">
+        Read more
+      </button>
+      <br>
+
+      <!-- CTA -->
+      <a href='/contact' class="sbt-button" style="
+        display:inline-block; background:#45D1FF; color:#031034; text-decoration:none;
+        font-weight:700; padding:14px 32px; border-radius:36px; font-size:16px;
+        letter-spacing:0.2px; transition:.25s;
+      " onmouseover="this.style.background='#ffffff'; this.style.color='#031034';" onmouseout="this.style.background='#45D1FF'; this.style.color='#031034';">
+        🤝 Take a moment for a confidential discussion
+      </a>
+    </div>
+
+    <!-- Image column -->
+    <div class="sbt-image" style="
+      flex:1 1 520px; min-width:320px; position:relative;
+    ">
+      <img src="https://i.imgur.com/aACR1pH.png" 
+           alt="SBT Executive — Leisure" 
+           style="
+             width:100%; height:100%; max-height:520px; object-fit:cover;
+             border-radius:16px; box-shadow:0 12px 30px rgba(3,16,52,.12);
+           ">
+    </div>
+
+  </div>
+</section>

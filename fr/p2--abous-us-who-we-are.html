@@ -1,0 +1,1041 @@
+<section class="sbt-block sbt-hero" style="position: relative; overflow: hidden;">
+  <!-- Image de fond -->
+  <div class="sbt-bg" style="
+    background-image: url('https://i.imgur.com/7WpjBFC.jpeg');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    inset: 0;
+  "></div>
+
+  <!-- Overlay bleu nuit -->
+  <div style="
+    position: absolute;
+    inset: 0;
+    background: rgba(3, 16, 52, 0.6);
+  "></div>
+
+  <!-- Contenu -->
+  <div class="sbt-container" style="
+    position: relative;
+    z-index: 2;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 120px 40px;
+    color: #fff;
+  ">
+    <div class="sbt-text" style="max-width: 800px;">
+      <h2 class="sbt-title" style="
+        font-family: 'Playfair Display', serif;
+        font-size: 42px;
+        margin-bottom: 24px;
+      ">
+        Notre raison d’être
+      </h2>
+
+      <!-- Texte court visible -->
+      <p class="sbt-short" style="
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 1.6;
+        color: #D9D9D9;
+        margin-bottom: 20px;
+      ">
+        Nous révélons, préparons et accompagnons les leaders là où l’humain se voit, s’éprouve et fait la différence.
+      </p>
+
+      <!-- Texte long masqué -->
+      <div id="longText" style="display: none; margin-bottom: 30px;">
+        <p style="font-size: 18px; line-height: 1.7; color: #D9D9D9;">
+          Spécialisés en <strong style="color:#45D1FF;">Executive Search</strong> et 
+          <strong style="color:#45D1FF;">Leadership Advisory</strong>, nous croyons que l’humain est la première source de performance durable. 
+          Nos secteurs — <strong style="color:#45D1FF;">sport</strong>, <strong style="color:#45D1FF;">entertainment</strong>, 
+          <strong style="color:#45D1FF;">loisirs</strong> — sont des univers d’exposition, de passion et de transformation permanente. 
+          C’est dans ces environnements visibles et exigeants que nous opérons : en identifiant les bons leaders, 
+          en créant les conditions de leur impact et en accompagnant leur réussite au service d’organisations visionnaires et humaines.
+        </p>
+      </div>
+
+      <!-- Boutons -->
+      <div class="sbt-buttons" style="display: flex; gap: 16px; flex-wrap: wrap;">
+        <button id="toggleTextBtn" style="
+          background: transparent;
+          color: #45D1FF;
+          border: 1px solid #45D1FF;
+          padding: 12px 28px;
+          border-radius: 50px;
+          font-weight: 500;
+          cursor: pointer;
+          transition: all 0.3s ease;
+        " onmouseover="this.style.backgroundColor='#45D1FF'; this.style.color='#031034';"
+           onmouseout="this.style.backgroundColor='transparent'; this.style.color='#45D1FF';">
+          En savoir plus
+        </button>
+
+        <a href="/our-services" class="sbt-button" style="
+          background-color: #45D1FF;
+          color: #031034;
+          font-weight: 600;
+          padding: 12px 28px;
+          border-radius: 50px;
+          text-decoration: none;
+          transition: all 0.3s ease;
+        " onmouseover="this.style.backgroundColor='#ffffff';" onmouseout="this.style.backgroundColor='#45D1FF';">
+          Découvrir notre approche
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Script JS léger -->
+  <script>
+    document.getElementById('toggleTextBtn').addEventListener('click', function() {
+      const longText = document.getElementById('longText');
+      const isVisible = longText.style.display === 'block';
+      longText.style.display = isVisible ? 'none' : 'block';
+      this.textContent = isVisible ? 'En savoir plus' : 'Réduire';
+    });
+  </script>
+</section>
+<section class="sbt-block sbt-hero" style="position: relative; overflow: hidden;">
+  <!-- Background image -->
+  <div class="sbt-bg" style="
+    background-image: url('https://i.imgur.com/7WpjBFC.jpeg');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    inset: 0;
+  "></div>
+
+  <!-- Midnight blue overlay -->
+  <div style="
+    position: absolute;
+    inset: 0;
+    background: rgba(3, 16, 52, 0.6);
+  "></div>
+
+  <!-- Content -->
+  <div class="sbt-container" style="
+    position: relative;
+    z-index: 2;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 120px 40px;
+    color: #fff;
+  ">
+    <div class="sbt-text" style="max-width: 800px;">
+      <h2 class="sbt-title" style="
+        font-family: 'Playfair Display', serif;
+        font-size: 42px;
+        margin-bottom: 24px;
+      ">
+        Who we are
+      </h2>
+
+      <!-- Short text visible -->
+      <p class="sbt-short" style="
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 1.6;
+        color: #D9D9D9;
+        margin-bottom: 20px;
+      ">
+        We reveal, prepare and support leaders where the human factor is visible, tested, and makes the difference.
+      </p>
+
+      <!-- Long text hidden -->
+      <div id="longTextEn" style="display: none; margin-bottom: 30px;">
+        <p style="font-size: 18px; line-height: 1.7; color: #D9D9D9;">
+          Specialised in <strong style="color:#45D1FF;">Executive Search</strong> and 
+          <strong style="color:#45D1FF;">Leadership Advisory</strong>, we believe that people are the primary driver of lasting performance. 
+          Our sectors — <strong style="color:#45D1FF;">sport</strong>, <strong style="color:#45D1FF;">entertainment</strong> and 
+          <strong style="color:#45D1FF;">leisure</strong> — are worlds of exposure, passion and continuous transformation. 
+          It is within these visible and demanding environments that we operate: identifying the right leaders, 
+          creating the conditions for their impact, and supporting their success within visionary and human-centred organisations.
+        </p>
+      </div>
+
+      <!-- Buttons -->
+      <div class="sbt-buttons" style="display: flex; gap: 16px; flex-wrap: wrap;">
+        <button id="toggleTextBtnEn" style="
+          background: transparent;
+          color: #45D1FF;
+          border: 1px solid #45D1FF;
+          padding: 12px 28px;
+          border-radius: 50px;
+          font-weight: 500;
+          cursor: pointer;
+          transition: all 0.3s ease;
+        " onmouseover="this.style.backgroundColor='#45D1FF'; this.style.color='#031034';"
+           onmouseout="this.style.backgroundColor='transparent'; this.style.color='#45D1FF';">
+          Read more
+        </button>
+
+        <a href="/our-services" class="sbt-button" style="
+          background-color: #45D1FF;
+          color: #031034;
+          font-weight: 600;
+          padding: 12px 28px;
+          border-radius: 50px;
+          text-decoration: none;
+          transition: all 0.3s ease;
+        " onmouseover="this.style.backgroundColor='#ffffff';" onmouseout="this.style.backgroundColor='#45D1FF';">
+          Discover our approach
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Light JS -->
+  <script>
+    document.getElementById('toggleTextBtnEn').addEventListener('click', function() {
+      const longText = document.getElementById('longTextEn');
+      const isVisible = longText.style.display === 'block';
+      longText.style.display = isVisible ? 'none' : 'block';
+      this.textContent = isVisible ? 'Read more' : 'Collapse';
+    });
+  </script>
+</section>
+
+<!-- ====================== -->
+<!-- ⚙️ BLOC B – Notre approche intégrée pour un impact durable -->
+<!-- ====================== -->
+<section class="sbt-block sbt-split" style="background:#F7F8FA; padding:80px 0;">
+  <div class="sbt-container" style="
+    max-width:1200px; margin:0 auto; padding:0 32px;
+    display:flex; gap:48px; align-items:center; flex-wrap:wrap;
+  ">
+    
+    <!-- Colonne texte -->
+    <div class="sbt-text" style="flex:1 1 520px; min-width:320px;">
+      <h2 class="sbt-title" style="
+        font-family:'Playfair Display',serif;
+        font-size:34px; color:#031034; margin:0 0 16px;
+      ">
+        Une approche intégrée pour un impact durable
+      </h2>
+
+      <!-- Texte court -->
+      <p class="sbt-intro" style="font-size:18px; line-height:1.7; color:#2B2F3A; margin:0 0 20px;">
+        Notre approche repose sur une <strong>synergie unique entre deux expertises complémentaires</strong> : 
+        <span style="color:#45D1FF; font-weight:600;">attirer les bons leaders</span>, puis 
+        <span style="color:#45D1FF; font-weight:600;">créer les conditions de leur impact</span>.  
+        C’est cette connexion entre <strong>Executive Search</strong> et <strong>Leadership Advisory</strong> 
+        qui permet à nos missions de produire un impact durable.
+      </p>
+
+      <!-- Texte long (caché par défaut) -->
+      <div id="blocB-long" style="display:none;">
+        <p class="sbt-body" style="font-size:17px; line-height:1.8; color:#434A57; margin:0 0 28px;">
+          Un recrutement réussi n’est pas une fin en soi, mais le point de départ d’une transformation durable.  
+          Parce que les environnements dans lesquels évoluent les dirigeants sont aussi déterminants que leurs compétences, 
+          nous combinons <strong style="color:#45D1FF;">Executive Search</strong> et 
+          <strong style="color:#45D1FF;">Leadership Advisory</strong> au sein d’une démarche intégrée.  
+          Cette méthode permet de <strong>sécuriser les prises de poste</strong>, 
+          <strong>accélérer l’impact</strong> et <strong>renforcer l’engagement</strong>, 
+          tout en répondant aux transformations profondes qui redéfinissent nos secteurs.  
+          Elle incarne un leadership plus <strong>stratégique</strong>, plus <strong>humain</strong>, 
+          et durablement aligné sur la réalité des organisations que nous accompagnons.
+        </p>
+      </div>
+
+      <!-- Boutons -->
+      <div class="sbt-buttons" style="display:flex; gap:16px; flex-wrap:wrap;">
+        <button id="toggleBlocB" style="
+          background:none; border:1px solid #45D1FF; color:#45D1FF; font-weight:600;
+          cursor:pointer; padding:12px 28px; border-radius:36px;
+          transition: all 0.3s ease;
+        " onmouseover="this.style.backgroundColor='#45D1FF'; this.style.color='#031034';"
+           onmouseout="this.style.backgroundColor='transparent'; this.style.color='#45D1FF';">
+          En savoir plus
+        </button>
+
+        <a href="/leadership-shift" class="sbt-button" style="
+          display:inline-block; background:#45D1FF; color:#031034; text-decoration:none;
+          font-weight:600; padding:12px 28px; border-radius:36px; transition:.25s;
+        " onmouseover="this.style.background='#ffffff';" onmouseout="this.style.background='#45D1FF';">
+          Découvrir le SBT Leadership Shift
+        </a>
+      </div>
+    </div>
+
+    <!-- Colonne image -->
+    <div class="sbt-image" style="flex:1 1 520px; min-width:320px; position:relative;">
+      <img src="https://i.imgur.com/FRlxPK6.jpeg" alt="Notre approche intégrée — SBT Executive" style="
+        width:100%; height:100%; max-height:520px; object-fit:cover; border-radius:16px;
+        box-shadow:0 12px 30px rgba(3,16,52,.12);
+      ">
+    </div>
+
+  </div>
+</section>
+<!-- BLOC B – Our Integrated Approach (EN) -->
+<section class="sbt-block sbt-split" style="background:#F7F8FA;">
+  <div class="sbt-container" style="
+    max-width:1200px; margin:0 auto; padding:80px 24px;
+    display:flex; gap:48px; align-items:center; flex-wrap:wrap;
+  ">
+    
+    <!-- Text column -->
+    <div class="sbt-text" style="flex:1 1 520px; min-width:320px;">
+      <h2 class="sbt-title" style="
+        font-family:'Playfair Display',serif;
+        font-size:34px; color:#031034; margin:0 0 16px;
+      ">
+        An integrated approach for lasting impact
+      </h2>
+
+      <!-- Short text -->
+      <p class="sbt-intro" style="font-size:18px; line-height:1.7; color:#2B2F3A; margin:0 0 20px;">
+        Our approach is built on a <strong>unique synergy between two complementary areas of expertise</strong>: 
+        <span style="color:#45D1FF; font-weight:600;">attracting the right leaders</span>, and 
+        <span style="color:#45D1FF; font-weight:600;">creating the conditions for their impact</span>.  
+        It’s this connection between <strong>Executive Search</strong> and <strong>Leadership Advisory</strong> 
+        that allows our missions to deliver sustainable results.
+      </p>
+
+      <!-- Long text (hidden by default) -->
+      <div id="blocB-long-en" style="display:none;">
+        <p class="sbt-body" style="font-size:17px; line-height:1.8; color:#434A57; margin:0 0 28px;">
+          A successful recruitment is not an end in itself, but the starting point of lasting transformation.  
+          Because the environments in which leaders evolve are as decisive as their skills, 
+          we combine <strong style="color:#45D1FF;">Executive Search</strong> and 
+          <strong style="color:#45D1FF;">Leadership Advisory</strong> within an integrated methodology.  
+          This approach helps <strong>secure leadership transitions</strong>, 
+          <strong>accelerate impact</strong>, and <strong>strengthen engagement</strong>, 
+          while addressing the deep transformations reshaping our industries.  
+          It embodies a more <strong>strategic</strong>, more <strong>human</strong> form of leadership, 
+          fully aligned with the realities of the organisations we serve.
+        </p>
+      </div>
+
+      <!-- Buttons -->
+      <button id="toggleBlocB-en" style="
+        background:none; border:none; color:#45D1FF; font-weight:600;
+        cursor:pointer; margin-bottom:24px;
+      " onclick="
+        const longTextEn=document.getElementById('blocB-long-en');
+        longTextEn.style.display = longTextEn.style.display==='none' ? 'block' : 'none';
+        this.textContent = this.textContent==='Read more' ? 'Collapse' : 'Read more';
+      ">
+        Read more
+      </button>
+      <br>
+
+      <!-- Main CTA -->
+      <a href="/leadership-shift" class="sbt-button" style="
+        display:inline-block; background:#45D1FF; color:#031034; text-decoration:none;
+        font-weight:600; padding:12px 28px; border-radius:36px; transition:.25s;
+      " onmouseover="this.style.background='#ffffff';" onmouseout="this.style.background='#45D1FF';">
+        Discover the SBT Leadership Shift
+      </a>
+    </div>
+
+    <!-- Image column -->
+    <div class="sbt-image" style="flex:1 1 520px; min-width:320px; position:relative;">
+      <img src="https://i.imgur.com/FRlxPK6.jpeg" alt="Our Integrated Approach — SBT Executive" style="
+        width:100%; height:100%; max-height:520px; object-fit:cover; border-radius:16px;
+        box-shadow:0 12px 30px rgba(3,16,52,.12);
+      ">
+    </div>
+
+  </div>
+</section>
+<!-- BLOC C – Nos modèles exclusifs au service du leadership (harmonisé) -->
+<section class="sbt-block sbt-split" style="background:#FFFFFF; padding:80px 0;">
+  <div class="sbt-container" style="
+    max-width:1200px; margin:0 auto; padding:0 24px;
+    display:flex; gap:48px; align-items:center; flex-wrap:wrap; flex-direction:row-reverse;
+  ">
+    
+    <!-- Colonne texte -->
+    <div class="sbt-text" style="flex:1 1 520px; min-width:320px;">
+      <h2 class="sbt-title" style="
+        font-family:'Playfair Display',serif;
+        font-size:34px; color:#031034; margin:0 0 16px;
+      ">
+        Trois modèles complémentaires pour activer le leadership de demain
+      </h2>
+
+      <!-- Texte court -->
+      <p class="sbt-intro" style="
+        font-size:18px; line-height:1.7; color:#2B2F3A; margin:0 0 20px;
+      ">
+        Pour développer, engager et préparer les leaders à leur futur, 
+        nous mobilisons trois modèles exclusifs — 
+        <strong>Craft</strong>, <strong>Future</strong> et <strong>Co-Creative Communication</strong> — 
+        qui structurent notre approche du 
+        <span style="color:#45D1FF; font-weight:600;">Leadership Shift</span>.
+      </p>
+
+      <!-- Texte long (caché par défaut) -->
+      <div id="blocC-long" style="display:none;">
+        <p class="sbt-body" style="
+          font-size:17px; line-height:1.8; color:#434A57; margin:0 0 28px;
+        ">
+          Nos interventions s’appuient sur trois modèles développés avec des experts reconnus du leadership.  
+          <strong style="color:#45D1FF;">Craft</strong> renforce l’alignement stratégique, 
+          la performance collective et la cohésion des équipes.  
+          <strong style="color:#45D1FF;">Future</strong> aide les organisations à anticiper 
+          les transformations de leur secteur et à identifier les compétences clés de demain.  
+          <strong style="color:#45D1FF;">Co-Creative Communication</strong> facilite l’engagement 
+          des parties prenantes dans des environnements complexes, 
+          où l’adhésion est essentielle.  
+          <br><br>
+          Ensemble, ces trois modèles traduisent notre conviction : 
+          <em>le leadership n’est pas une posture, c’est une dynamique à structurer — 
+          humaine, stratégique et durable.</em>
+        </p>
+      </div>
+
+      <!-- Boutons -->
+      <button id="toggleBlocC" style="
+        background:none; border:none; color:#45D1FF; font-weight:600;
+        cursor:pointer; margin-bottom:24px;
+      " onclick="
+        const longText=document.getElementById('blocC-long');
+        longText.style.display = longText.style.display==='none' ? 'block' : 'none';
+        this.textContent = this.textContent==='En savoir plus' ? 'Réduire' : 'En savoir plus';
+      ">
+        En savoir plus
+      </button>
+      <br>
+
+      <!-- CTA principal -->
+      <a href="/our-methods" class="sbt-button" style="
+        display:inline-block; background:#45D1FF; color:#031034; text-decoration:none;
+        font-weight:600; padding:12px 28px; border-radius:36px; transition:.25s;
+      " onmouseover="this.style.background='#ffffff';" onmouseout="this.style.background='#45D1FF';">
+        En savoir plus sur nos modèles
+      </a>
+    </div>
+
+    <!-- Colonne image (harmonisée) -->
+    <div class="sbt-image" style="
+      flex:1 1 480px; min-width:320px; position:relative; text-align:center;
+    ">
+      <img src="https://i.imgur.com/2g4xgUz.jpeg" alt="Nos modèles exclusifs — SBT Executive" style="
+        width:100%; height:auto; max-height:420px; object-fit:cover;
+        border-radius:16px; box-shadow:0 8px 20px rgba(3,16,52,.08);
+        filter:brightness(0.97) saturate(1.1);
+      ">
+    </div>
+
+  </div>
+</section>
+<!-- BLOC C – Our exclusive models for leadership impact (harmonized) -->
+<section class="sbt-block sbt-split" style="background:#FFFFFF; padding:80px 0;">
+  <div class="sbt-container" style="
+    max-width:1200px; margin:0 auto; padding:0 24px;
+    display:flex; gap:48px; align-items:center; flex-wrap:wrap; flex-direction:row-reverse;
+  ">
+    
+    <!-- Text column -->
+    <div class="sbt-text" style="flex:1 1 520px; min-width:320px;">
+      <h2 class="sbt-title" style="
+        font-family:'Playfair Display',serif;
+        font-size:34px; color:#031034; margin:0 0 16px;
+      ">
+        Three complementary models to activate tomorrow’s leadership
+      </h2>
+
+      <!-- Short text -->
+      <p class="sbt-intro" style="
+        font-size:18px; line-height:1.7; color:#2B2F3A; margin:0 0 20px;
+      ">
+        To develop, engage and prepare leaders for the future, 
+        we apply three exclusive models — 
+        <strong>Craft</strong>, <strong>Future</strong> and <strong>Co-Creative Communication</strong> — 
+        which together structure our 
+        <span style="color:#45D1FF; font-weight:600;">Leadership Shift</span> approach.
+      </p>
+
+      <!-- Long text (hidden by default) -->
+      <div id="blocC-long-en" style="display:none;">
+        <p class="sbt-body" style="
+          font-size:17px; line-height:1.8; color:#434A57; margin:0 0 28px;
+        ">
+          Our interventions are based on three frameworks developed with leading leadership experts.  
+          <strong style="color:#45D1FF;">Craft</strong> enhances strategic alignment, 
+          collective performance and team cohesion.  
+          <strong style="color:#45D1FF;">Future</strong> helps organisations anticipate 
+          industry transformations and identify tomorrow’s key capabilities.  
+          <strong style="color:#45D1FF;">Co-Creative Communication</strong> fosters stakeholder engagement 
+          in complex environments where alignment and trust are essential.  
+          <br><br>
+          Together, these three models embody our conviction:  
+          <em>leadership is not a posture — it’s a dynamic to be structured, both human and strategic, for lasting impact.</em>
+        </p>
+      </div>
+
+      <!-- Buttons -->
+      <button id="toggleBlocC-en" style="
+        background:none; border:none; color:#45D1FF; font-weight:600;
+        cursor:pointer; margin-bottom:24px;
+      " onclick="
+        const longText=document.getElementById('blocC-long-en');
+        longText.style.display = longText.style.display==='none' ? 'block' : 'none';
+        this.textContent = this.textContent==='Learn more' ? 'Hide' : 'Learn more';
+      ">
+        Learn more
+      </button>
+      <br>
+
+      <!-- Main CTA -->
+      <a href="/our-methods" class="sbt-button" style="
+        display:inline-block; background:#45D1FF; color:#031034; text-decoration:none;
+        font-weight:600; padding:12px 28px; border-radius:36px; transition:.25s;
+      " onmouseover="this.style.background='#ffffff';" onmouseout="this.style.background='#45D1FF';">
+        Learn more about our models
+      </a>
+    </div>
+
+    <!-- Image column (harmonized) -->
+    <div class="sbt-image" style="
+      flex:1 1 480px; min-width:320px; position:relative; text-align:center;
+    ">
+      <img src="https://i.imgur.com/2g4xgUz.jpeg" alt="Our exclusive leadership models — SBT Executive" style="
+        width:100%; height:auto; max-height:420px; object-fit:cover;
+        border-radius:16px; box-shadow:0 8px 20px rgba(3,16,52,.08);
+        filter:brightness(0.97) saturate(1.1);
+      ">
+    </div>
+
+  </div>
+</section>
+<!-- BLOC D – Nos expertises appliquées à vos problématiques -->
+<section class="sbt-block sbt-split" style="background:#F7F8FA;">
+  <div class="sbt-container" style="
+    max-width:1200px; margin:0 auto; padding:80px 24px;
+    display:flex; gap:48px; align-items:center; flex-wrap:wrap;
+  ">
+    
+    <!-- Colonne image -->
+    <div class="sbt-image" style="flex:1 1 480px; min-width:320px; position:relative;">
+      <img src="https://i.imgur.com/2j5I0gn.png" 
+           alt="Nos expertises — SBT Executive" 
+           style="width:100%; height:auto; max-height:480px; object-fit:contain;
+                  border-radius:16px; box-shadow:0 10px 25px rgba(3,16,52,.12);
+                  filter:brightness(0.97) saturate(1.05);">
+    </div>
+
+    <!-- Colonne texte -->
+    <div class="sbt-text" style="flex:1 1 520px; min-width:320px;">
+      <h2 class="sbt-title" style="
+        font-family:'Playfair Display',serif;
+        font-size:34px; color:#031034; margin:0 0 16px;
+      ">
+        Nos expertises, appliquées à vos problématiques
+      </h2>
+
+      <!-- Texte court -->
+      <p class="sbt-intro" style="
+        font-size:18px; line-height:1.7; color:#2B2F3A; margin:0 0 20px;
+      ">
+        <strong>Recruter, développer, engager, préparer :</strong> chaque enjeu de leadership appelle une réponse sur-mesure.
+      </p>
+
+      <!-- Texte long (masqué par défaut) -->
+      <div id="blocD-long" style="display:none;">
+        <p class="sbt-body" style="font-size:17px; line-height:1.8; color:#434A57; margin:0 0 28px;">
+          Nos <strong style="color:#45D1FF;">16 solutions</strong> s’articulent autour de quatre leviers clés,
+          conçus pour répondre à tous les enjeux du leadership moderne.  
+          Chez <strong style="color:#45D1FF;">SBT Executive</strong>, nous ne proposons pas de solutions toutes faites :  
+          nous agissons sur des problématiques concrètes, souvent complexes, toujours humaines.  
+          Identifier un profil rare, renforcer une gouvernance, préparer une succession, réaligner une équipe,
+          engager un collectif, faire évoluer une posture managériale ou intégrer un profil atypique…  
+          chaque mission est pensée avec exigence, sens du timing et une lecture fine des dynamiques humaines.  
+          <br><br>
+          Nos interventions reposent sur quatre logiques majeures :  
+          <strong style="color:#45D1FF;">Recruter</strong>, 
+          <strong style="color:#45D1FF;">Développer</strong>, 
+          <strong style="color:#45D1FF;">Engager</strong> et 
+          <strong style="color:#45D1FF;">Préparer</strong> — 
+          pour créer les conditions du leadership là où il compte vraiment.
+        </p>
+      </div>
+
+      <!-- Boutons -->
+      <div class="sbt-buttons" style="display:flex; gap:16px; flex-wrap:wrap;">
+        <button id="toggleBlocD" style="
+          background:none; border:1px solid #45D1FF; color:#45D1FF; font-weight:600;
+          cursor:pointer; padding:12px 28px; border-radius:36px; transition:.3s;
+        " onmouseover="this.style.backgroundColor='#45D1FF'; this.style.color='#031034';"
+           onmouseout="this.style.backgroundColor='transparent'; this.style.color='#45D1FF';">
+          En savoir plus
+        </button>
+
+        <a href="/our-services" class="sbt-button" style="
+          display:inline-block; background:#45D1FF; color:#031034; text-decoration:none;
+          font-weight:600; padding:12px 28px; border-radius:36px; transition:.25s;
+        " onmouseover="this.style.background='#ffffff';" onmouseout="this.style.background='#45D1FF';">
+          Découvrir nos 4 axes d’intervention
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<script>
+  (function(){
+    const btn = document.getElementById('toggleBlocD');
+    if (btn) {
+      btn.addEventListener('click', function() {
+        const longText = document.getElementById('blocD-long');
+        const isVisible = longText.style.display === 'block';
+        longText.style.display = isVisible ? 'none' : 'block';
+        this.textContent = isVisible ? 'En savoir plus' : 'Réduire';
+      });
+    }
+  })();
+</script>
+<!-- BLOC D – Our Expertise, Tailored to Your Challenges -->
+<section class="sbt-block sbt-split" style="background:#F7F8FA;">
+  <div class="sbt-container" style="
+    max-width:1200px; margin:0 auto; padding:80px 24px;
+    display:flex; gap:48px; align-items:center; flex-wrap:wrap;
+  ">
+    
+    <!-- Image column -->
+    <div class="sbt-image" style="flex:1 1 480px; min-width:320px; position:relative;">
+      <img src="https://i.imgur.com/2j5I0gn.png" 
+           alt="Our Expertise — SBT Executive" 
+           style="width:100%; height:auto; max-height:480px; object-fit:contain;
+                  border-radius:16px; box-shadow:0 10px 25px rgba(3,16,52,.12);
+                  filter:brightness(0.97) saturate(1.05);">
+    </div>
+
+    <!-- Text column -->
+    <div class="sbt-text" style="flex:1 1 520px; min-width:320px;">
+      <h2 class="sbt-title" style="
+        font-family:'Playfair Display',serif;
+        font-size:34px; color:#031034; margin:0 0 16px;
+      ">
+        Our expertise, tailored to your challenges
+      </h2>
+
+      <!-- Short text -->
+      <p class="sbt-intro" style="
+        font-size:18px; line-height:1.7; color:#2B2F3A; margin:0 0 20px;
+      ">
+        <strong>Recruit, develop, engage, prepare</strong> — every leadership challenge deserves a targeted response.
+      </p>
+
+      <!-- Long text (hidden by default) -->
+      <div id="blocD-long-en" style="display:none;">
+        <p class="sbt-body" style="font-size:17px; line-height:1.8; color:#434A57; margin:0 0 28px;">
+          Our <strong style="color:#45D1FF;">16 solutions</strong> are structured around four key pillars,
+          designed to address every leadership challenge.  
+          At <strong style="color:#45D1FF;">SBT Executive</strong>, we don’t apply ready-made formulas — 
+          we act on real, often complex and always human challenges.  
+          Identifying a rare profile under tight deadlines, strengthening governance, preparing a sensitive succession,
+          realigning a team, engaging a collective around a shared ambition, evolving a managerial posture, 
+          or integrating atypical talent — each mission is crafted with precision, timing, and a deep understanding of human dynamics.  
+          <br><br>
+          Our interventions follow four major paths:  
+          <strong style="color:#45D1FF;">Recruit</strong>, 
+          <strong style="color:#45D1FF;">Develop</strong>, 
+          <strong style="color:#45D1FF;">Engage</strong>, and 
+          <strong style="color:#45D1FF;">Prepare</strong> — 
+          to create the right conditions for leadership where it truly matters.
+        </p>
+      </div>
+
+      <!-- Buttons -->
+      <div class="sbt-buttons" style="display:flex; gap:16px; flex-wrap:wrap;">
+        <button id="toggleBlocD-en" style="
+          background:none; border:1px solid #45D1FF; color:#45D1FF; font-weight:600;
+          cursor:pointer; padding:12px 28px; border-radius:36px; transition:.3s;
+        " onmouseover="this.style.backgroundColor='#45D1FF'; this.style.color='#031034';"
+           onmouseout="this.style.backgroundColor='transparent'; this.style.color='#45D1FF';">
+          Read more
+        </button>
+
+        <a href="/our-services" class="sbt-button" style="
+          display:inline-block; background:#45D1FF; color:#031034; text-decoration:none;
+          font-weight:600; padding:12px 28px; border-radius:36px; transition:.25s;
+        " onmouseover="this.style.background='#ffffff';" onmouseout="this.style.background='#45D1FF';">
+          Explore our four pillars
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<script>
+  (function(){
+    const btn = document.getElementById('toggleBlocD-en');
+    if (btn) {
+      btn.addEventListener('click', function() {
+        const longText = document.getElementById('blocD-long-en');
+        const isVisible = longText.style.display === 'block';
+        longText.style.display = isVisible ? 'none' : 'block';
+        this.textContent = isVisible ? 'Read more' : 'Show less';
+      });
+    }
+  })();
+</script>
+<!-- BLOC E – Notre équipe d’experts (FR, avec emphases) -->
+<section class="sbt-block sbt-split" style="background:#FFFFFF;">
+  <div class="sbt-container" style="
+    max-width:1200px; margin:0 auto; padding:80px 24px;
+    display:flex; gap:48px; align-items:center; flex-wrap:wrap; flex-direction:row-reverse;
+  ">
+
+    <!-- Colonne image -->
+    <div class="sbt-image" style="flex:1 1 520px; min-width:320px;">
+      <img src="https://i.imgur.com/K8qBCQt.jpeg"
+           alt="Notre équipe d’experts — SBT Executive"
+           style="width:100%; height:auto; max-height:520px; object-fit:cover;
+                  border-radius:16px; box-shadow:0 12px 30px rgba(3,16,52,.12);">
+    </div>
+
+    <!-- Colonne texte -->
+    <div class="sbt-text" style="flex:1 1 520px; min-width:320px;">
+      <h2 class="sbt-title" style="
+        font-family:'Playfair Display',serif;
+        font-size:34px; color:#031034; margin:0 0 16px;
+      ">
+        <strong>Une équipe d’experts complémentaires, engagés là où l’humain est stratégique</strong>
+      </h2>
+
+      <!-- Texte court -->
+      <p class="sbt-intro" style="font-size:18px; line-height:1.7; color:#2B2F3A; margin:0 0 20px;">
+        Dirigeants du secteur, anciens <strong>DRH</strong>, <strong>chasseurs de tête</strong>,
+        <strong>experts du leadership</strong>, <strong>coach·s accrédités</strong>…
+        notre équipe reflète la <strong>diversité des enjeux</strong> auxquels nos clients sont confrontés.
+      </p>
+
+      <!-- Texte long (masqué par défaut) -->
+      <div id="blocE-long" style="display:none;">
+        <p class="sbt-body" style="font-size:17px; line-height:1.8; color:#434A57; margin:0 0 28px;">
+          Nos experts partagent un socle commun : une <strong>compréhension fine de la dynamique humaine</strong>
+          et une <strong>exigence opérationnelle élevée</strong>. Leurs parcours sont volontairement pluriels :
+          certains viennent du <strong>sport</strong>, de <strong>l’entertainment</strong> ou des <strong>loisirs</strong> ;
+          d’autres ont accompagné les <strong>plus grandes entreprises du CAC&nbsp;40</strong>.
+          Cette diversité nous permet d’apporter à chaque mission un <strong>regard juste</strong>,
+          équilibré entre <strong>connaissance du terrain</strong> et <strong>hauteur stratégique</strong>.
+          Nous intervenons <strong>là où l’humain fait la différence</strong>, avec une approche à la fois
+          <strong>humaine</strong>, <strong>stratégique</strong> et <strong>engagée</strong>.
+        </p>
+      </div>
+
+      <!-- Boutons -->
+      <div class="sbt-buttons" style="display:flex; gap:16px; flex-wrap:wrap;">
+        <button id="toggleBlocE" style="
+          background:none; border:1px solid #45D1FF; color:#45D1FF; font-weight:600;
+          cursor:pointer; padding:12px 28px; border-radius:36px; transition:.3s;
+        " onmouseover="this.style.backgroundColor='#45D1FF'; this.style.color='#031034';"
+           onmouseout="this.style.backgroundColor='transparent'; this.style.color='#45D1FF';">
+          En savoir plus
+        </button>
+
+        <a href="/experts" class="sbt-button" style="
+          display:inline-block; background:#45D1FF; color:#031034; text-decoration:none;
+          font-weight:600; padding:12px 28px; border-radius:36px; transition:.25s;
+        " onmouseover="this.style.background='#ffffff';" onmouseout="this.style.background='#45D1FF';">
+          Découvrez nos experts
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<script>
+  (function(){
+    const btn = document.getElementById('toggleBlocE');
+    if (btn) {
+      btn.addEventListener('click', function() {
+        const longText = document.getElementById('blocE-long');
+        const isVisible = longText.style.display === 'block';
+        longText.style.display = isVisible ? 'none' : 'block';
+        this.textContent = isVisible ? 'En savoir plus' : 'Réduire';
+      });
+    }
+  })();
+</script>
+<!-- BLOC E – Our team of experts (EN) -->
+<section class="sbt-block sbt-split" style="background:#FFFFFF;">
+  <div class="sbt-container" style="
+    max-width:1200px; margin:0 auto; padding:80px 24px;
+    display:flex; gap:48px; align-items:center; flex-wrap:wrap; flex-direction:row-reverse;
+  ">
+
+    <!-- Image column -->
+    <div class="sbt-image" style="flex:1 1 520px; min-width:320px;">
+      <img src="https://i.imgur.com/K8qBCQt.jpeg"
+           alt="Our team of experts — SBT Executive"
+           style="width:100%; height:auto; max-height:520px; object-fit:cover;
+                  border-radius:16px; box-shadow:0 12px 30px rgba(3,16,52,.12);">
+    </div>
+
+    <!-- Text column -->
+    <div class="sbt-text" style="flex:1 1 520px; min-width:320px;">
+      <h2 class="sbt-title" style="
+        font-family:'Playfair Display',serif;
+        font-size:34px; color:#031034; margin:0 0 16px;
+      ">
+        <strong>A team of complementary experts, committed where the human factor is strategic</strong>
+      </h2>
+
+      <!-- Short text -->
+      <p class="sbt-intro" style="font-size:18px; line-height:1.7; color:#2B2F3A; margin:0 0 20px;">
+        Industry leaders, former <strong>HR Directors</strong>, <strong>headhunters</strong>,
+        <strong>leadership experts</strong>, and <strong>certified coaches</strong> —  
+        our team reflects the <strong>diversity of challenges</strong> our clients face.
+      </p>
+
+      <!-- Long text (hidden by default) -->
+      <div id="blocE-long-en" style="display:none;">
+        <p class="sbt-body" style="font-size:17px; line-height:1.8; color:#434A57; margin:0 0 28px;">
+          Our experts share a common foundation: a <strong>deep understanding of human dynamics</strong>
+          and a <strong>strong operational mindset</strong>.  
+          Their backgrounds are intentionally diverse: some come from the <strong>sports</strong>,
+          <strong>entertainment</strong>, or <strong>leisure</strong> industries;  
+          others have worked with <strong>leading CAC 40 companies</strong>.  
+          This diversity enables us to bring a <strong>balanced perspective</strong> to every mission —  
+          combining <strong>field knowledge</strong> with <strong>strategic vision</strong>.  
+          We operate <strong>where people make the difference</strong>, with an approach that is  
+          <strong>human</strong>, <strong>strategic</strong>, and <strong>deeply committed</strong>.
+        </p>
+      </div>
+
+      <!-- Buttons -->
+      <div class="sbt-buttons" style="display:flex; gap:16px; flex-wrap:wrap;">
+        <button id="toggleBlocE-en" style="
+          background:none; border:1px solid #45D1FF; color:#45D1FF; font-weight:600;
+          cursor:pointer; padding:12px 28px; border-radius:36px; transition:.3s;
+        " onmouseover="this.style.backgroundColor='#45D1FF'; this.style.color='#031034';"
+           onmouseout="this.style.backgroundColor='transparent'; this.style.color='#45D1FF';">
+          Read more
+        </button>
+
+        <a href="/experts" class="sbt-button" style="
+          display:inline-block; background:#45D1FF; color:#031034; text-decoration:none;
+          font-weight:600; padding:12px 28px; border-radius:36px; transition:.25s;
+        " onmouseover="this.style.background='#ffffff';" onmouseout="this.style.background='#45D1FF';">
+          Discover our experts
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<script>
+  (function(){
+    const btn = document.getElementById('toggleBlocE-en');
+    if (btn) {
+      btn.addEventListener('click', function() {
+        const longText = document.getElementById('blocE-long-en');
+        const isVisible = longText.style.display === 'block';
+        longText.style.display = isVisible ? 'none' : 'block';
+        this.textContent = isVisible ? 'Read more' : 'Show less';
+      });
+    }
+  })();
+</script>
+<!-- BLOC G – Rejoindre notre collectif d’experts (fond bleu, formulaire pliable) -->
+<section class="sbt-block sbt-join" style="background:#031034; padding:100px 0;">
+  <div class="sbt-container" style="max-width:1000px; margin:0 auto; padding:0 24px; text-align:center; color:#FFFFFF;">
+
+    <!-- Titre -->
+    <h2 class="sbt-title" style="
+      font-family:'Playfair Display',serif;
+      font-size:36px; color:#FFFFFF; margin-bottom:20px;
+    ">
+      Rejoindre notre collectif d’experts
+    </h2>
+
+    <!-- Sous-titre -->
+    <p class="sbt-intro" style="
+      font-size:20px; color:#D9D9D9; font-weight:400; margin-bottom:40px; line-height:1.6;
+    ">
+      Vous êtes expert du <strong style="color:#45D1FF;">leadership</strong>, du 
+      <strong style="color:#45D1FF;">coaching</strong>, du 
+      <strong style="color:#45D1FF;">sport</strong>, du 
+      <strong style="color:#45D1FF;">divertissement</strong> ou du 
+      <strong style="color:#45D1FF;">développement humain</strong> ?  
+      Notre collectif s’élargit progressivement, avec <strong>exigence</strong> et <strong>bienveillance</strong>.
+    </p>
+
+    <!-- Texte principal -->
+    <p class="sbt-body" style="
+      font-size:17px; line-height:1.8; color:#D9D9D9; max-width:800px; margin:0 auto 40px;
+    ">
+      Rejoindre <strong style="color:#45D1FF;">SBT Executive</strong>, c’est contribuer à une mission : 
+      <em>faire réussir l’humain, là où il est essentiel</em>.  
+      Nous réunissons des personnalités expertes, engagées et complémentaires — 
+      <strong>anciens dirigeants</strong>, <strong>DRH</strong>, 
+      <strong>psychologues du sport</strong>, <strong>chasseurs de tête</strong>, 
+      <strong>coach·s certifiés</strong> ou <strong>chercheurs</strong>.  
+      Tous partagent une vision du leadership où <strong>l’humain est au centre</strong> 
+      et une forte connaissance de nos secteurs.  
+      <br><br>
+      <strong>SBT Executive</strong> grandit pas à pas. Nous restons à l’écoute de nouveaux talents 
+      pour renforcer notre collectif, en <strong>France</strong> et à l’<strong>international</strong>.  
+      Si vous souhaitez contribuer à notre mission, <strong>présentez-nous votre profil</strong>.
+    </p>
+
+    <!-- Bouton pour afficher/masquer le formulaire -->
+    <button id="toggleFormBtn" style="
+      background-color:#45D1FF; color:#031034; font-weight:600;
+      padding:14px 36px; border:none; border-radius:50px; cursor:pointer;
+      transition:.3s; font-size:16px;
+    " onmouseover="this.style.background='#FFFFFF';" onmouseout="this.style.background='#45D1FF';">
+      Envoyer ma candidature
+    </button>
+
+    <!-- Formulaire caché -->
+    <div id="applyForm" style="display:none; margin-top:50px;">
+      <form action="/submit-expert-candidature" method="post" enctype="multipart/form-data" id="apply-expert" style="
+        background:#FFFFFF; border-radius:16px; box-shadow:0 12px 30px rgba(0,0,0,.25);
+        padding:40px; text-align:left; max-width:700px; margin:0 auto;
+      ">
+        <label style="color:#031034;">Nom / Name*</label><br>
+        <input type="text" name="name" required style="width:100%; padding:12px; margin:8px 0 16px; border:1px solid #D9D9D9; border-radius:8px;"><br>
+
+        <label style="color:#031034;">Email*</label><br>
+        <input type="email" name="email" required style="width:100%; padding:12px; margin:8px 0 16px; border:1px solid #D9D9D9; border-radius:8px;"><br>
+
+        <label style="color:#031034;">Fonction actuelle / Current Role</label><br>
+        <input type="text" name="role" style="width:100%; padding:12px; margin:8px 0 16px; border:1px solid #D9D9D9; border-radius:8px;"><br>
+
+        <label style="color:#031034;">Pays / Country</label><br>
+        <input type="text" name="country" style="width:100%; padding:12px; margin:8px 0 16px; border:1px solid #D9D9D9; border-radius:8px;"><br>
+
+        <label style="color:#031034;">Expertises principales / Main Areas of Expertise</label><br>
+        <textarea name="expertise" rows="4" style="width:100%; padding:12px; margin:8px 0 16px; border:1px solid #D9D9D9; border-radius:8px;"></textarea><br>
+
+        <label style="color:#031034;">Message libre / Your message</label><br>
+        <textarea name="message" rows="5" style="width:100%; padding:12px; margin:8px 0 16px; border:1px solid #D9D9D9; border-radius:8px;"></textarea><br>
+
+        <label style="color:#031034;">CV (PDF, max 5MB)</label><br>
+        <input type="file" name="cv" accept=".pdf" style="margin:8px 0 24px;"><br>
+
+        <button type="submit" style="
+          display:inline-block; background:#45D1FF; color:#031034; font-weight:600;
+          padding:12px 32px; border:none; border-radius:36px; cursor:pointer; transition:.3s;
+        " onmouseover="this.style.background='#FFFFFF'; this.style.color='#031034';"
+           onmouseout="this.style.background='#45D1FF'; this.style.color='#031034';">
+          Envoyer
+        </button>
+      </form>
+    </div>
+
+  </div>
+
+  <!-- Script JS léger -->
+  <script>
+    document.getElementById('toggleFormBtn').addEventListener('click', function() {
+      const form = document.getElementById('applyForm');
+      const isVisible = form.style.display === 'block';
+      form.style.display = isVisible ? 'none' : 'block';
+      this.textContent = isVisible ? 'Envoyer ma candidature' : 'Fermer le formulaire';
+    });
+  </script>
+</section>
+<!-- BLOC G – Join our collective of experts (English version) -->
+<section class="sbt-block sbt-join" style="background:#031034; padding:100px 0;">
+  <div class="sbt-container" style="max-width:1000px; margin:0 auto; padding:0 24px; text-align:center; color:#FFFFFF;">
+
+    <!-- Title -->
+    <h2 class="sbt-title" style="
+      font-family:'Playfair Display',serif;
+      font-size:36px; color:#FFFFFF; margin-bottom:20px;
+    ">
+      Join our collective of experts
+    </h2>
+
+    <!-- Subtitle -->
+    <p class="sbt-intro" style="
+      font-size:20px; color:#D9D9D9; font-weight:400; margin-bottom:40px; line-height:1.6;
+    ">
+      Are you an expert in <strong style="color:#45D1FF;">leadership</strong>, 
+      <strong style="color:#45D1FF;">coaching</strong>, 
+      <strong style="color:#45D1FF;">sports</strong>, 
+      <strong style="color:#45D1FF;">entertainment</strong> or 
+      <strong style="color:#45D1FF;">human development</strong>?  
+      Our collective is growing, guided by both <strong>high standards</strong> and <strong>human care</strong>.
+    </p>
+
+    <!-- Body text -->
+    <p class="sbt-body" style="
+      font-size:17px; line-height:1.8; color:#D9D9D9; max-width:800px; margin:0 auto 40px;
+    ">
+      Joining <strong style="color:#45D1FF;">SBT Executive</strong> means contributing to one mission:  
+      <em>enabling human success where it truly matters</em>.  
+      We bring together committed and complementary professionals — 
+      <strong>former executives</strong>, <strong>HR leaders</strong>, 
+      <strong>sports psychologists</strong>, <strong>headhunters</strong>, 
+      <strong>certified coaches</strong> and <strong>researchers</strong>.  
+      All share a vision of leadership that places <strong>people at the center</strong>, 
+      backed by deep knowledge of our industries.  
+      <br><br>
+      <strong>SBT Executive</strong> is growing step by step. We remain open to meeting new experts, 
+      in <strong>France</strong> and internationally.  
+      If you want to contribute to our mission, <strong>introduce yourself below</strong>.
+    </p>
+
+    <!-- Button to show/hide form -->
+    <button id="toggleFormBtnEN" style="
+      background-color:#45D1FF; color:#031034; font-weight:600;
+      padding:14px 36px; border:none; border-radius:50px; cursor:pointer;
+      transition:.3s; font-size:16px;
+    " onmouseover="this.style.background='#FFFFFF';" onmouseout="this.style.background='#45D1FF';">
+      Submit my application
+    </button>
+
+    <!-- Hidden form -->
+    <div id="applyFormEN" style="display:none; margin-top:50px;">
+      <form action="/submit-expert-candidature" method="post" enctype="multipart/form-data" id="apply-expert" style="
+        background:#FFFFFF; border-radius:16px; box-shadow:0 12px 30px rgba(0,0,0,.25);
+        padding:40px; text-align:left; max-width:700px; margin:0 auto;
+      ">
+        <label style="color:#031034;">Name*</label><br>
+        <input type="text" name="name" required style="width:100%; padding:12px; margin:8px 0 16px; border:1px solid #D9D9D9; border-radius:8px;"><br>
+
+        <label style="color:#031034;">Email*</label><br>
+        <input type="email" name="email" required style="width:100%; padding:12px; margin:8px 0 16px; border:1px solid #D9D9D9; border-radius:8px;"><br>
+
+        <label style="color:#031034;">Current Role</label><br>
+        <input type="text" name="role" style="width:100%; padding:12px; margin:8px 0 16px; border:1px solid #D9D9D9; border-radius:8px;"><br>
+
+        <label style="color:#031034;">Country</label><br>
+        <input type="text" name="country" style="width:100%; padding:12px; margin:8px 0 16px; border:1px solid #D9D9D9; border-radius:8px;"><br>
+
+        <label style="color:#031034;">Main Areas of Expertise</label><br>
+        <textarea name="expertise" rows="4" style="width:100%; padding:12px; margin:8px 0 16px; border:1px solid #D9D9D9; border-radius:8px;"></textarea><br>
+
+        <label style="color:#031034;">Your message</label><br>
+        <textarea name="message" rows="5" style="width:100%; padding:12px; margin:8px 0 16px; border:1px solid #D9D9D9; border-radius:8px;"></textarea><br>
+
+        <label style="color:#031034;">CV (PDF, max 5MB)</label><br>
+        <input type="file" name="cv" accept=".pdf" style="margin:8px 0 24px;"><br>
+
+        <button type="submit" style="
+          display:inline-block; background:#45D1FF; color:#031034; font-weight:600;
+          padding:12px 32px; border:none; border-radius:36px; cursor:pointer; transition:.3s;
+        " onmouseover="this.style.background='#FFFFFF'; this.style.color='#031034';"
+           onmouseout="this.style.background='#45D1FF'; this.style.color='#031034';">
+          Send
+        </button>
+      </form>
+    </div>
+
+  </div>
+
+  <!-- Light JS script -->
+  <script>
+    document.getElementById('toggleFormBtnEN').addEventListener('click', function() {
+      const form = document.getElementById('applyFormEN');
+      const isVisible = form.style.display === 'block';
+      form.style.display = isVisible ? 'none' : 'block';
+      this.textContent = isVisible ? 'Submit my application' : 'Close form';
+    });
+  </script>
+</section>
+
